@@ -1,0 +1,3958 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Online Shopping System">
+  <data key="d0">Online Shopping System</data>
+  <data key="d1">system</data>
+  <data key="d2">An online shopping platform supporting user registration, login, product browsing, shopping cart management, order creation, payment, and reviews.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217729</data>
+  <data key="d6"></data>
+</node>
+<node id="B2C Mall Platform">
+  <data key="d0">B2C Mall Platform</data>
+  <data key="d1">system</data>
+  <data key="d2">A business-to-consumer mall platform featuring core modules like product display, shopping process, order management, and user information management.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217729</data>
+  <data key="d6"></data>
+</node>
+<node id="User Module">
+  <data key="d0">User Module</data>
+  <data key="d1">module</data>
+  <data key="d2">A module providing basic account management functions such as registration, login, profile maintenance, and shipping address management.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217729</data>
+  <data key="d6"></data>
+</node>
+<node id="Ordinary User">
+  <data key="d0">Ordinary User</data>
+  <data key="d1">role</data>
+  <data key="d2">A user role with permissions for browsing products, placing orders, payments, checking orders, and leaving reviews.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217730</data>
+  <data key="d6"></data>
+</node>
+<node id="Background Management User">
+  <data key="d0">Background Management User</data>
+  <data key="d1">role</data>
+  <data key="d2">A user role capable of performing background operations like product management, order management, and user management (not included in the current version).</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217730</data>
+  <data key="d6"></data>
+</node>
+<node id="User Registration">
+  <data key="d0">User Registration</data>
+  <data key="d1">function</data>
+  <data key="d2">A function allowing new users to create accounts using email or username and password.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217730</data>
+  <data key="d6"></data>
+</node>
+<node id="User Login">
+  <data key="d0">User Login</data>
+  <data key="d1">function</data>
+  <data key="d2">A function enabling users to log in using their username/email and password.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217730</data>
+  <data key="d6"></data>
+</node>
+<node id="User Information Modification">
+  <data key="d0">User Information Modification</data>
+  <data key="d1">function</data>
+  <data key="d2">A function allowing users to modify basic information such as nickname, password, avatar, and gender.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217730</data>
+  <data key="d6"></data>
+</node>
+<node id="Phone/Email Binding">
+  <data key="d0">Phone/Email Binding</data>
+  <data key="d1">function</data>
+  <data key="d2">A function for users to bind or change their phone number or email for security and notification purposes.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217731</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipping Address Management">
+  <data key="d0">Shipping Address Management</data>
+  <data key="d1">function</data>
+  <data key="d2">A function allowing users to add, edit, delete, and set default shipping addresses for orders.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217731</data>
+  <data key="d6"></data>
+</node>
+<node id="Verification Code">
+  <data key="d0">Verification Code</data>
+  <data key="d1">method</data>
+  <data key="d2">A method for sending SMS verification codes for validation during phone/email binding or other processes.&lt;SEP&gt;Verification code is a 6-digit numeric code used for authentication, valid for 5 minutes.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4&lt;SEP&gt;chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217732</data>
+  <data key="d6"></data>
+</node>
+<node id="User Registration Status Rules">
+  <data key="d0">User Registration Status Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Rules defining new user status as "normal" and recording registration time with a default avatar.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217732</data>
+  <data key="d6"></data>
+</node>
+<node id="User Registration Business Rules">
+  <data key="d0">User Registration Business Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Business rules for username uniqueness (4-20 alphanumeric characters), minimum password length (6+ characters), and email format requirements.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217732</data>
+  <data key="d6"></data>
+</node>
+<node id="Login Status Rules">
+  <data key="d0">Login Status Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Rules about updating user active time and logging device/time/IP upon successful login.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217732</data>
+  <data key="d6"></data>
+</node>
+<node id="Login Business Rules">
+  <data key="d0">Login Business Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Rules supporting both email and username login with fuzzy matching for account existence.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217732</data>
+  <data key="d6"></data>
+</node>
+<node id="User Information Business Rules">
+  <data key="d0">User Information Business Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Rules for nickname length (≤20 chars), gender values (male/female/secret), and avatar specifications (2MB max, PNG/JPG/JPEG formats).</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217733</data>
+  <data key="d6"></data>
+</node>
+<node id="Verification Code Rules">
+  <data key="d0">Verification Code Rules</data>
+  <data key="d1">rule</data>
+  <data key="d2">Rules about verification code validity (5 minutes), sending limits (5/hour), and unique account binding constraints.</data>
+  <data key="d3">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217733</data>
+  <data key="d6"></data>
+</node>
+<node id="客服人员">
+  <data key="d0">客服人员</data>
+  <data key="d1">person</data>
+  <data key="d2">Customer service personnel.&lt;SEP&gt;客服人员负责处理用户申诉和查找订单用户。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="运营人员">
+  <data key="d0">运营人员</data>
+  <data key="d1">person</data>
+  <data key="d2">运营人员或管理员具有商品管理权限，可新增、编辑、上下架、删除商品。&lt;SEP&gt;Operational staff.&lt;SEP&gt;运营人员负责进行用户标签运营。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="系统管理员">
+  <data key="d0">系统管理员</data>
+  <data key="d1">person</data>
+  <data key="d2">System administrator with high-level permissions.&lt;SEP&gt;系统管理员拥有封禁、删除用户等权限。&lt;SEP&gt;A role with permissions to perform operations and export data.</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-d13fd88113bb3db1365c36313d668142&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="用户列表查询">
+  <data key="d0">用户列表查询</data>
+  <data key="d1">content</data>
+  <data key="d2">管理员可通过多条件筛选快速定位用户账户。&lt;SEP&gt;Function for filtering and searching user account information.</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="查看用户详情">
+  <data key="d0">查看用户详情</data>
+  <data key="d1">content</data>
+  <data key="d2">管理员可查看用户完整信息与行为记录。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="封禁/解封用户">
+  <data key="d0">封禁/解封用户</data>
+  <data key="d1">content</data>
+  <data key="d2">管理员可封禁或解封用户，控制登录权限。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217734</data>
+  <data key="d6"></data>
+</node>
+<node id="用户标签管理">
+  <data key="d0">用户标签管理</data>
+  <data key="d1">content</data>
+  <data key="d2">用于用户分群和精细化运营，可批量赋值/移除标签。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217735</data>
+  <data key="d6"></data>
+</node>
+<node id="重置用户密码">
+  <data key="d0">重置用户密码</data>
+  <data key="d1">content</data>
+  <data key="d2">仅限超级管理员操作的敏感功能，可重置用户密码。&lt;SEP&gt;A sensitive operation allowing administrators to reset user passwords under specific conditions.</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217735</data>
+  <data key="d6"></data>
+</node>
+<node id="超级管理员">
+  <data key="d0">超级管理员</data>
+  <data key="d1">person</data>
+  <data key="d2">超级管理员拥有重置用户密码等敏感操作权限。&lt;SEP&gt;A role with the highest level of permissions, including resetting user passwords.</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217735</data>
+  <data key="d6"></data>
+</node>
+<node id="封禁理由">
+  <data key="d0">封禁理由</data>
+  <data key="d1">data</data>
+  <data key="d2">封禁操作需记录封禁理由，且不能为空。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217735</data>
+  <data key="d6"></data>
+</node>
+<node id="封禁状态">
+  <data key="d0">封禁状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">用户状态分为正常(可登录、可操作)和封禁(不可登录，接口拒绝访问)。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217735</data>
+  <data key="d6"></data>
+</node>
+<node id="用户标签">
+  <data key="d0">用户标签</data>
+  <data key="d1">content</data>
+  <data key="d2">用户标签用于分群和运营，包括“新用户”、“高活跃用户”等类型。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217736</data>
+  <data key="d6"></data>
+</node>
+<node id="筛选条件">
+  <data key="d0">筛选条件</data>
+  <data key="d1">content</data>
+  <data key="d2">用户列表查询支持用户名模糊搜索、手机号/邮箱精准匹配、注册时间范围等筛选条件。</data>
+  <data key="d3">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217736</data>
+  <data key="d6"></data>
+</node>
+<node id="Backend Category Tree">
+  <data key="d0">Backend Category Tree</data>
+  <data key="d1">concept</data>
+  <data key="d2">A hierarchical structure used to organize categories, supports up to three levels with parent_id and tree_path.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217736</data>
+  <data key="d6"></data>
+</node>
+<node id="Is_Deleted Flag">
+  <data key="d0">Is_Deleted Flag</data>
+  <data key="d1">concept</data>
+  <data key="d2">A boolean flag indicating whether a category is deleted, setting it to true hides the category from the backend tree.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217737</data>
+  <data key="d6"></data>
+</node>
+<node id="Historical Order Data">
+  <data key="d0">Historical Order Data</data>
+  <data key="d1">data</data>
+  <data key="d2">Retained data for purposes such as historical order tracking and statistical analysis.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217737</data>
+  <data key="d6"></data>
+</node>
+<node id="Category Hierarchy">
+  <data key="d0">Category Hierarchy</data>
+  <data key="d1">concept</data>
+  <data key="d2">Supports up to three levels of classification, stored using parent_id and tree_path.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217737</data>
+  <data key="d6"></data>
+</node>
+<node id="Category Image">
+  <data key="d0">Category Image</data>
+  <data key="d1">content</data>
+  <data key="d2">Used for displaying icons on the homepage or banners on category pages, as per frontend design.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217737</data>
+  <data key="d6"></data>
+</node>
+<node id="Sorting Rule">
+  <data key="d0">Sorting Rule</data>
+  <data key="d1">method</data>
+  <data key="d2">Categories are sorted with smaller values appearing first, default range set between 100~999.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217737</data>
+  <data key="d6"></data>
+</node>
+<node id="Cascading Control">
+  <data key="d0">Cascading Control</data>
+  <data key="d1">method</data>
+  <data key="d2">Disabling a parent category does not affect the business validity of its subcategories but makes them inaccessible on the frontend.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217738</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Dependency">
+  <data key="d0">Product Dependency</data>
+  <data key="d1">concept</data>
+  <data key="d2">Products must be bound to the most granular level of classification to enhance filtering precision.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217739</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Management Module">
+  <data key="d0">Order Management Module</data>
+  <data key="d1">module</data>
+  <data key="d2">Provides functionalities for order data querying, shipping, cancellation, and ensures transaction flow integrity.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217739</data>
+  <data key="d6"></data>
+</node>
+<node id="Order List Pagination Query">
+  <data key="d0">Order List Pagination Query</data>
+  <data key="d1">method</data>
+  <data key="d2">Allows viewing all order lists with support for conditional search and pagination.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217739</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Status">
+  <data key="d0">Order Status</data>
+  <data key="d1">concept</data>
+  <data key="d2">Tracks the lifecycle of an order from creation to finalization or cancellation.&lt;SEP&gt;The current state of an order, such as '待支付' (awaiting payment), '已发货' (shipped), or '已完成' (completed).&lt;SEP&gt;Represents the state of an order, such as pending payment, paid, shipped, etc.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710&lt;SEP&gt;chunk-7fd66117ad0b74ac47c8f441d7bf29ec&lt;SEP&gt;chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217739</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Detail View">
+  <data key="d0">Order Detail View</data>
+  <data key="d1">method</data>
+  <data key="d2">Displays comprehensive order information for confirming shipments and handling after-sales processes.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217740</data>
+  <data key="d6"></data>
+</node>
+<node id="Logical Disable State">
+  <data key="d0">Logical Disable State</data>
+  <data key="d1">concept</data>
+  <data key="d2">A state where products are bound but logically disabled, requiring unbinding before deletion.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217740</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Number">
+  <data key="d0">Order Number</data>
+  <data key="d1">data</data>
+  <data key="d2">A unique identifier for an order, generated in a specific format (e.g., '年月日+用户ID+随机码').&lt;SEP&gt;A unique identifier for each order, used for search and reference.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710&lt;SEP&gt;chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217740</data>
+  <data key="d6"></data>
+</node>
+<node id="User Phone Number">
+  <data key="d0">User Phone Number</data>
+  <data key="d1">data</data>
+  <data key="d2">Contact information used for order search and customer identification.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217741</data>
+  <data key="d6"></data>
+</node>
+<node id="Creation Time Range">
+  <data key="d0">Creation Time Range</data>
+  <data key="d1">concept</data>
+  <data key="d2">A time period used to filter orders based on their creation dates.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217741</data>
+  <data key="d6"></data>
+</node>
+<node id="Payment Method">
+  <data key="d0">Payment Method</data>
+  <data key="d1">concept</data>
+  <data key="d2">The manner in which an order is paid, such as credit card or digital wallet.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217741</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipping Status">
+  <data key="d0">Shipping Status</data>
+  <data key="d1">concept</data>
+  <data key="d2">Indicates whether an order has been shipped or is still in the processing stage.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217742</data>
+  <data key="d6"></data>
+</node>
+<node id="User Nickname">
+  <data key="d0">User Nickname</data>
+  <data key="d1">data</data>
+  <data key="d2">A name or alias used to identify the user in the system.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217742</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Amount">
+  <data key="d0">Order Amount</data>
+  <data key="d1">data</data>
+  <data key="d2">Total monetary value of the order including product prices and shipping fees.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217743</data>
+  <data key="d6"></data>
+</node>
+<node id="Placement Time">
+  <data key="d0">Placement Time</data>
+  <data key="d1">data</data>
+  <data key="d2">The timestamp when the order was created by the user.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217743</data>
+  <data key="d6"></data>
+</node>
+<node id="Operation Actions">
+  <data key="d0">Operation Actions</data>
+  <data key="d1">concept</data>
+  <data key="d2">Available administrative actions such as view, ship, or close an order.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217743</data>
+  <data key="d6"></data>
+</node>
+<node id="Product List">
+  <data key="d0">Product List</data>
+  <data key="d1">data</data>
+  <data key="d2">A detailed enumeration of items included in the order with quantities and prices.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217744</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipping Time">
+  <data key="d0">Shipping Time</data>
+  <data key="d1">data</data>
+  <data key="d2">The timestamp when the order was dispatched to the customer.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217744</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipper">
+  <data key="d0">Shipper</data>
+  <data key="d1">person</data>
+  <data key="d2">The individual responsible for dispatching the order.</data>
+  <data key="d3">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217745</data>
+  <data key="d6"></data>
+</node>
+<node id="Shopping Cart Module">
+  <data key="d0">Shopping Cart Module</data>
+  <data key="d1">content</data>
+  <data key="d2">Module handling all shopping cart operations requiring login for persistence and real-time database writes.&lt;SEP&gt;Shopping Cart Module provides temporary storage and batch checkout for products.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec&lt;SEP&gt;chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217745</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Module">
+  <data key="d0">Product Module</data>
+  <data key="d1">content</data>
+  <data key="d2">Module managing product listings, including automatic removal or marking of invalid products in the shopping cart.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217745</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Module">
+  <data key="d0">Order Module</data>
+  <data key="d1">content</data>
+  <data key="d2">Module responsible for order generation, lifecycle management, and payment system integration.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217746</data>
+  <data key="d6"></data>
+</node>
+<node id="Payment System">
+  <data key="d0">Payment System</data>
+  <data key="d1">organization</data>
+  <data key="d2">System interfacing with the order module to handle payments, including integrations with WeChat and Alipay.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217746</data>
+  <data key="d6"></data>
+</node>
+<node id="User ID">
+  <data key="d0">User ID</data>
+  <data key="d1">data</data>
+  <data key="d2">Unique identifier for users, required for all cart and order operations.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217746</data>
+  <data key="d6"></data>
+</node>
+<node id="Order ID">
+  <data key="d0">Order ID</data>
+  <data key="d1">data</data>
+  <data key="d2">Unique identifier for each order, generated upon submission.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217746</data>
+  <data key="d6"></data>
+</node>
+<node id="Delivery Address">
+  <data key="d0">Delivery Address</data>
+  <data key="d1">concept</data>
+  <data key="d2">Specifies the location for order delivery, chosen or added by the user.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Price">
+  <data key="d0">Product Price</data>
+  <data key="d1">data</data>
+  <data key="d2">Cost of individual products, part of the total order calculation.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipping Fee">
+  <data key="d0">Shipping Fee</data>
+  <data key="d1">data</data>
+  <data key="d2">Additional charge applied to the order total, if configured.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="Login Restriction">
+  <data key="d0">Login Restriction</data>
+  <data key="d1">concept</data>
+  <data key="d2">Requires users to be logged in to perform shopping cart operations and persist data.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="State Persistence">
+  <data key="d0">State Persistence</data>
+  <data key="d1">concept</data>
+  <data key="d2">All modifications in shopping cart require real-time writes to the database.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="Performance Optimization">
+  <data key="d0">Performance Optimization</data>
+  <data key="d1">concept</data>
+  <data key="d2">Recommends caching product prices and cover images while using delayed stock verification during checkout.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Lifecycle">
+  <data key="d0">Order Lifecycle</data>
+  <data key="d1">concept</data>
+  <data key="d2">Describes stages from order creation to payment, shipping, delivery, and optional evaluation.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217747</data>
+  <data key="d6"></data>
+</node>
+<node id="WeChat">
+  <data key="d0">WeChat</data>
+  <data key="d1">organization</data>
+  <data key="d2">Payment platform integrated with the order module for processing transactions.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217748</data>
+  <data key="d6"></data>
+</node>
+<node id="Alipay">
+  <data key="d0">Alipay</data>
+  <data key="d1">organization</data>
+  <data key="d2">Payment platform integrated with the order module for processing transactions.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217749</data>
+  <data key="d6"></data>
+</node>
+<node id="Order Confirmation Page">
+  <data key="d0">Order Confirmation Page</data>
+  <data key="d1">content</data>
+  <data key="d2">Page displaying order details for user verification before payment.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217749</data>
+  <data key="d6"></data>
+</node>
+<node id="Payment Success Page">
+  <data key="d0">Payment Success Page</data>
+  <data key="d1">content</data>
+  <data key="d2">Page shown after successful payment completion.</data>
+  <data key="d3">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217750</data>
+  <data key="d6"></data>
+</node>
+<node id="商品管理员">
+  <data key="d0">商品管理员</data>
+  <data key="d1">person</data>
+  <data key="d2">商品管理员负责查看和管理商品列表，包括基本信息如价格、库存、分类、状态等。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217750</data>
+  <data key="d6"></data>
+</node>
+<node id="商品列表">
+  <data key="d0">商品列表</data>
+  <data key="d1">content</data>
+  <data key="d2">商品列表展示所有商品的基本信息，支持筛选和关键字搜索。&lt;SEP&gt;List of ordered items.</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217750</data>
+  <data key="d6"></data>
+</node>
+<node id="商品ID">
+  <data key="d0">商品ID</data>
+  <data key="d1">data</data>
+  <data key="d2">商品ID是商品的唯一标识符，如100001。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217751</data>
+  <data key="d6"></data>
+</node>
+<node id="商品标题">
+  <data key="d0">商品标题</data>
+  <data key="d1">content</data>
+  <data key="d2">商品标题是购物车列表中展示的商品主名称。&lt;SEP&gt;商品标题是商品的前台展示名称，如小米智能手环8。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217751</data>
+  <data key="d6"></data>
+</node>
+<node id="所属分类">
+  <data key="d0">所属分类</data>
+  <data key="d1">concept</data>
+  <data key="d2">所属分类是商品的类别，如智能穿戴。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217751</data>
+  <data key="d6"></data>
+</node>
+<node id="单价">
+  <data key="d0">单价</data>
+  <data key="d1">data</data>
+  <data key="d2">单价是购物车列表中展示的商品最新价格。&lt;SEP&gt;单价是商品的价格，如￥199.00。&lt;SEP&gt;Price per item.</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-96d780916eb31d8b69fb52d7a96d509d&lt;SEP&gt;chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217751</data>
+  <data key="d6"></data>
+</node>
+<node id="库存">
+  <data key="d0">库存</data>
+  <data key="d1">data</data>
+  <data key="d2">库存表示商品的可用数量，如500。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217752</data>
+  <data key="d6"></data>
+</node>
+<node id="上下架状态">
+  <data key="d0">上下架状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">上下架状态表示商品是否在前台展示，如已上架/已下架。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217752</data>
+  <data key="d6"></data>
+</node>
+<node id="操作">
+  <data key="d0">操作</data>
+  <data key="d1">method</data>
+  <data key="d2">操作包括编辑、上下架、删除商品等管理功能。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217752</data>
+  <data key="d6"></data>
+</node>
+<node id="新增商品">
+  <data key="d0">新增商品</data>
+  <data key="d1">method</data>
+  <data key="d2">新增商品功能允许后台用户创建新商品并上架至商城。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217752</data>
+  <data key="d6"></data>
+</node>
+<node id="编辑商品">
+  <data key="d0">编辑商品</data>
+  <data key="d1">method</data>
+  <data key="d2">编辑商品功能允许修改已有商品的内容，如标题、描述、图片等。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217752</data>
+  <data key="d6"></data>
+</node>
+<node id="商品上下架">
+  <data key="d0">商品上下架</data>
+  <data key="d1">method</data>
+  <data key="d2">商品上下架功能控制商品在前台商城的展示状态。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217753</data>
+  <data key="d6"></data>
+</node>
+<node id="删除商品">
+  <data key="d0">删除商品</data>
+  <data key="d1">method</data>
+  <data key="d2">删除商品功能为逻辑删除，不影响历史订单，仅后台管理员可操作。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217753</data>
+  <data key="d6"></data>
+</node>
+<node id="分类管理模块">
+  <data key="d0">分类管理模块</data>
+  <data key="d1">content</data>
+  <data key="d2">分类管理模块为商品提供层级分类结构，支持后台对类目进行维护。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217753</data>
+  <data key="d6"></data>
+</node>
+<node id="逻辑删除">
+  <data key="d0">逻辑删除</data>
+  <data key="d1">concept</data>
+  <data key="d2">A deletion method where records are marked as deleted rather than physically removed to maintain data continuity.&lt;SEP&gt;逻辑删除是一种数据删除方式，避免影响历史订单数据。&lt;SEP&gt;逻辑删除maintains data in the database while hiding it from public view.</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-10f2b5902ee33747a9e74f0309eef548&lt;SEP&gt;chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217753</data>
+  <data key="d6"></data>
+</node>
+<node id="商品详情">
+  <data key="d0">商品详情</data>
+  <data key="d1">content</data>
+  <data key="d2">商品详情包含商品的详细描述信息，支持HTML或富文本格式。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217753</data>
+  <data key="d6"></data>
+</node>
+<node id="主图">
+  <data key="d0">主图</data>
+  <data key="d1">artifact</data>
+  <data key="d2">主图是商品列表/详情页显示的图片。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217754</data>
+  <data key="d6"></data>
+</node>
+<node id="物理删除">
+  <data key="d0">物理删除</data>
+  <data key="d1">method</data>
+  <data key="d2">物理删除会将商品数据从数据库中彻底移除。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217754</data>
+  <data key="d6"></data>
+</node>
+<node id="CDN">
+  <data key="d0">CDN</data>
+  <data key="d1">artifact</data>
+  <data key="d2">Content Delivery Network used for storing and accelerating access to review images.&lt;SEP&gt;CDN是图片上传建议使用的统一存储服务，限制最大2MB。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217754</data>
+  <data key="d6"></data>
+</node>
+<node id="富文本编辑器">
+  <data key="d0">富文本编辑器</data>
+  <data key="d1">artifact</data>
+  <data key="d2">富文本编辑器如QuilJs用于编辑商品详情内容。</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217754</data>
+  <data key="d6"></data>
+</node>
+<node id="User">
+  <data key="d0">User</data>
+  <data key="d1">person</data>
+  <data key="d2">User refers to individuals interacting with the system, performing actions like managing addresses, browsing products, and adding to favorites.&lt;SEP&gt;A user who interacts with the system, places orders, and provides reviews.&lt;SEP&gt;A user who can submit reviews for products they have purchased.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-4f8ffd2ae3f805dacd90df9af59d12fc&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217755</data>
+  <data key="d6"></data>
+</node>
+<node id="Order">
+  <data key="d0">Order</data>
+  <data key="d1">concept</data>
+  <data key="d2">An order placed by a user, containing items to be purchased.&lt;SEP&gt;A purchase record associated with a user, allowing one review per product per order.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217755</data>
+  <data key="d6"></data>
+</node>
+<node id="Review">
+  <data key="d0">Review</data>
+  <data key="d1">content</data>
+  <data key="d2">Feedback provided by a user for a purchased item, including ratings, text, and images.&lt;SEP&gt;User feedback on a product, including a star rating, text, and optional images.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217755</data>
+  <data key="d6"></data>
+</node>
+<node id="Review Image">
+  <data key="d0">Review Image</data>
+  <data key="d1">artifact</data>
+  <data key="d2">An image uploaded by a user as part of their review, up to 5 per review.&lt;SEP&gt;Images uploaded by users to accompany their reviews, limited to five per review.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217755</data>
+  <data key="d6"></data>
+</node>
+<node id="Shopping Cart">
+  <data key="d0">Shopping Cart</data>
+  <data key="d1">concept</data>
+  <data key="d2">Shopping cart allows users to temporarily store products before checkout.&lt;SEP&gt;A temporary storage for items a user intends to purchase.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217756</data>
+  <data key="d6"></data>
+</node>
+<node id="Product">
+  <data key="d0">Product</data>
+  <data key="d1">content</data>
+  <data key="d2">Product refers to items available in the marketplace, displayed with details like price, stock, and reviews.&lt;SEP&gt;An item available for purchase, with details such as title, price, and reviews.&lt;SEP&gt;An item that can be reviewed by users, listed in the product management system.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-4f8ffd2ae3f805dacd90df9af59d12fc&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217756</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Review Score">
+  <data key="d0">Product Review Score</data>
+  <data key="d1">data</data>
+  <data key="d2">An aggregated score based on user reviews, used to calculate product popularity.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217756</data>
+  <data key="d6"></data>
+</node>
+<node id="Shipping Information">
+  <data key="d0">Shipping Information</data>
+  <data key="d1">concept</data>
+  <data key="d2">Details about the recipient such as name, phone number, and address for order delivery.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217756</data>
+  <data key="d6"></data>
+</node>
+<node id="Payment Time">
+  <data key="d0">Payment Time</data>
+  <data key="d1">data</data>
+  <data key="d2">The specific time when the payment for an order is completed.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217757</data>
+  <data key="d6"></data>
+</node>
+<node id="Logistics Information">
+  <data key="d0">Logistics Information</data>
+  <data key="d1">data</data>
+  <data key="d2">Information regarding the shipment and delivery status of an order.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217757</data>
+  <data key="d6"></data>
+</node>
+<node id="Comment Submission">
+  <data key="d0">Comment Submission</data>
+  <data key="d1">method</data>
+  <data key="d2">The process of submitting a review, including entering text, selecting a rating, and optionally uploading images.</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217757</data>
+  <data key="d6"></data>
+</node>
+<node id="Comment Filtering">
+  <data key="d0">Comment Filtering</data>
+  <data key="d1">method</data>
+  <data key="d2">System for sorting and filtering reviews based on criteria like rating and image presence.&lt;SEP&gt;A process to filter reviews based on criteria such as '好评' (positive), '差评' (negative), or '有图' (with images).</data>
+  <data key="d3">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217757</data>
+  <data key="d6"></data>
+</node>
+<node id="F1.5">
+  <data key="d0">F1.5</data>
+  <data key="d1">concept</data>
+  <data key="d2">F1.5 refers to the delivery address management functionality allowing users to add, edit, delete, and set default addresses.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217757</data>
+  <data key="d6"></data>
+</node>
+<node id="F1.6">
+  <data key="d0">F1.6</data>
+  <data key="d1">concept</data>
+  <data key="d2">F1.6 refers to the verification code functionality used for account binding, identity verification, and password recovery.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217758</data>
+  <data key="d6"></data>
+</node>
+<node id="F2.1">
+  <data key="d0">F2.1</data>
+  <data key="d1">concept</data>
+  <data key="d2">F2.1 refers to the homepage product display functionality, showcasing attractive products and categories.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217758</data>
+  <data key="d6"></data>
+</node>
+<node id="F2.2">
+  <data key="d0">F2.2</data>
+  <data key="d1">concept</data>
+  <data key="d2">F2.2 refers to the product list browsing functionality, supporting filtering, sorting, and pagination.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217758</data>
+  <data key="d6"></data>
+</node>
+<node id="F2.3">
+  <data key="d0">F2.3</data>
+  <data key="d1">concept</data>
+  <data key="d2">F2.3 refers to the product detail page functionality, displaying complete product information.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217758</data>
+  <data key="d6"></data>
+</node>
+<node id="F2.4">
+  <data key="d0">F2.4</data>
+  <data key="d1">concept</data>
+  <data key="d2">F2.4 refers to the product favorite/unfavorite functionality for logged-in users.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="SMS/Email">
+  <data key="d0">SMS/Email</data>
+  <data key="d1">content</data>
+  <data key="d2">SMS or email is the medium used to send verification codes to users.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Homepage">
+  <data key="d0">Homepage</data>
+  <data key="d1">content</data>
+  <data key="d2">Homepage is the main entry point displaying carousel images, categories, and recommended products.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Carousel">
+  <data key="d0">Carousel</data>
+  <data key="d1">content</data>
+  <data key="d2">Carousel refers to the rotating banner display on the homepage showing featured content.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Category">
+  <data key="d0">Category</data>
+  <data key="d1">concept</data>
+  <data key="d2">Category refers to the product classification system used for organizing products.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Default Address">
+  <data key="d0">Default Address</data>
+  <data key="d1">concept</data>
+  <data key="d2">Default Address is the primary delivery address automatically used for orders.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Comment">
+  <data key="d0">Comment</data>
+  <data key="d1">content</data>
+  <data key="d2">Comment refers to user-generated reviews displayed on product detail pages.</data>
+  <data key="d3">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217759</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Detail Page">
+  <data key="d0">Product Detail Page</data>
+  <data key="d1">content</data>
+  <data key="d2">Web page displaying product information along with user reviews.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217760</data>
+  <data key="d6"></data>
+</node>
+<node id="Admin">
+  <data key="d0">Admin</data>
+  <data key="d1">person</data>
+  <data key="d2">Staff member responsible for managing product listings and reviewing system settings.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217760</data>
+  <data key="d6"></data>
+</node>
+<node id="Super Admin">
+  <data key="d0">Super Admin</data>
+  <data key="d1">person</data>
+  <data key="d2">Administrator with full permissions to manage all aspects of the product system.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="Star Rating">
+  <data key="d0">Star Rating</data>
+  <data key="d1">concept</data>
+  <data key="d2">A 1-5 scale rating system for user reviews, with 5 being the default highest score.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="Anonymous User">
+  <data key="d0">Anonymous User</data>
+  <data key="d1">person</data>
+  <data key="d2">A user who chooses to hide their identity, displaying a placeholder like "User123".</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="Review Audit">
+  <data key="d0">Review Audit</data>
+  <data key="d1">method</data>
+  <data key="d2">Process of screening reviews, with options for automatic approval or manual intervention.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="Comment Statistics">
+  <data key="d0">Comment Statistics</data>
+  <data key="d1">data</data>
+  <data key="d2">Aggregated metrics like average rating and positive review rate, displayed on product pages.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="Product Management">
+  <data key="d0">Product Management</data>
+  <data key="d1">module</data>
+  <data key="d2">Backend system allowing administrators to create, edit and organize product listings.</data>
+  <data key="d3">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="黑名单监控">
+  <data key="d0">黑名单监控</data>
+  <data key="d1">concept</data>
+  <data key="d2">A system feature to monitor users with high complaint rates or frequent refunds.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217761</data>
+  <data key="d6"></data>
+</node>
+<node id="标签管理">
+  <data key="d0">标签管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">A feature supporting batch assignment and removal of tags for users, used in data export, reporting, and operational scenarios.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217762</data>
+  <data key="d6"></data>
+</node>
+<node id="自动打标签">
+  <data key="d0">自动打标签</data>
+  <data key="d1">method</data>
+  <data key="d2">A rule-based system for automatically assigning tags to users.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217762</data>
+  <data key="d6"></data>
+</node>
+<node id="客服主管">
+  <data key="d0">客服主管</data>
+  <data key="d1">person</data>
+  <data key="d2">A role with permissions to reset user passwords and oversee customer service operations.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217762</data>
+  <data key="d6"></data>
+</node>
+<node id="操作日志">
+  <data key="d0">操作日志</data>
+  <data key="d1">data</data>
+  <data key="d2">Records of sensitive operations performed by administrators, such as password resets.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217763</data>
+  <data key="d6"></data>
+</node>
+<node id="用户状态管理">
+  <data key="d0">用户状态管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">Manages user statuses such as active, banned, or deleted (which is irreversible).</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217763</data>
+  <data key="d6"></data>
+</node>
+<node id="行为指标建议">
+  <data key="d0">行为指标建议</data>
+  <data key="d1">concept</data>
+  <data key="d2">Suggested metrics for user behavior, including login frequency, spending, order count, and review activity.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217763</data>
+  <data key="d6"></data>
+</node>
+<node id="安全机制">
+  <data key="d0">安全机制</data>
+  <data key="d1">concept</data>
+  <data key="d2">Security measures including logging all sensitive operations and recommending dual approvals.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217763</data>
+  <data key="d6"></data>
+</node>
+<node id="标签管理扩展性">
+  <data key="d0">标签管理扩展性</data>
+  <data key="d1">concept</data>
+  <data key="d2">The tag system's extensibility, supporting independent table creation and automated tag updates.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217764</data>
+  <data key="d6"></data>
+</node>
+<node id="导出权限限制">
+  <data key="d0">导出权限限制</data>
+  <data key="d1">concept</data>
+  <data key="d2">Restrictions on exporting user data, requiring approval to prevent leaks and allowing partial field exports.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217764</data>
+  <data key="d6"></data>
+</node>
+<node id="评价管理">
+  <data key="d0">评价管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">A backend module for managing user reviews, ensuring content health and safety.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217764</data>
+  <data key="d6"></data>
+</node>
+<node id="客服">
+  <data key="d0">客服</data>
+  <data key="d1">person</data>
+  <data key="d2">A role responsible for handling user reports and customer service tasks.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217764</data>
+  <data key="d6"></data>
+</node>
+<node id="内容审核专员">
+  <data key="d0">内容审核专员</data>
+  <data key="d1">person</data>
+  <data key="d2">A role dedicated to reviewing and moderating content on the platform.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="查看评价列表">
+  <data key="d0">查看评价列表</data>
+  <data key="d1">method</data>
+  <data key="d2">A function allowing administrators to view all user reviews with filtering options.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="审核/驳回评论">
+  <data key="d0">审核/驳回评论</data>
+  <data key="d1">method</data>
+  <data key="d2">A function for reviewing and approving or rejecting user comments to maintain platform standards.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="用户举报处理">
+  <data key="d0">用户举报处理</data>
+  <data key="d1">method</data>
+  <data key="d2">A function for addressing reports from users about specific comments.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="删除评论">
+  <data key="d0">删除评论</data>
+  <data key="d1">method</data>
+  <data key="d2">A function to permanently hide comments, making them visible only in the backend.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="评论状态管理">
+  <data key="d0">评论状态管理</data>
+  <data key="d1">method</data>
+  <data key="d2">A function to manage the status of comments, such as marking them as active or pending.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217765</data>
+  <data key="d6"></data>
+</node>
+<node id="站内信">
+  <data key="d0">站内信</data>
+  <data key="d1">content</data>
+  <data key="d2">An internal messaging system used to notify users after password reset.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217766</data>
+  <data key="d6"></data>
+</node>
+<node id="短信">
+  <data key="d0">短信</data>
+  <data key="d1">content</data>
+  <data key="d2">SMS notifications sent to users after password reset.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217766</data>
+  <data key="d6"></data>
+</node>
+<node id="定时任务">
+  <data key="d0">定时任务</data>
+  <data key="d1">method</data>
+  <data key="d2">Scheduled operations for periodically refreshing tags in the tagging system.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217767</data>
+  <data key="d6"></data>
+</node>
+<node id="双人复核">
+  <data key="d0">双人复核</data>
+  <data key="d1">method</data>
+  <data key="d2">A security mechanism requiring dual approvals for sensitive operations.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217767</data>
+  <data key="d6"></data>
+</node>
+<node id="审批流程">
+  <data key="d0">审批流程</data>
+  <data key="d1">method</data>
+  <data key="d2">An approval process required for exporting user data to prevent leaks.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217767</data>
+  <data key="d6"></data>
+</node>
+<node id="评价内容关键词">
+  <data key="d0">评价内容关键词</data>
+  <data key="d1">data</data>
+  <data key="d2">Keywords used for filtering and searching comment content.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217767</data>
+  <data key="d6"></data>
+</node>
+<node id="评论时间范围">
+  <data key="d0">评论时间范围</data>
+  <data key="d1">data</data>
+  <data key="d2">Date range filters for reviewing comments.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217767</data>
+  <data key="d6"></data>
+</node>
+<node id="商品封面">
+  <data key="d0">商品封面</data>
+  <data key="d1">content</data>
+  <data key="d2">商品封面是购物车列表中展示的商品图片，支持点击跳转详情页。&lt;SEP&gt;Product cover images displayed in reviews.</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142&lt;SEP&gt;chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217768</data>
+  <data key="d6"></data>
+</node>
+<node id="商品收藏状态">
+  <data key="d0">商品收藏状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">商品收藏状态可实时反映在列表/详情页中，收藏记录存在数据库中，可用于“我的收藏”列表。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217768</data>
+  <data key="d6"></data>
+</node>
+<node id="同一用户收藏同一商品仅记录一次">
+  <data key="d0">同一用户收藏同一商品仅记录一次</data>
+  <data key="d1">rule</data>
+  <data key="d2">同一用户收藏同一商品仅记录一次支持取消收藏操作。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217768</data>
+  <data key="d6"></data>
+</node>
+<node id="用户可最多收藏500个商品">
+  <data key="d0">用户可最多收藏500个商品</data>
+  <data key="d1">rule</data>
+  <data key="d2">用户可最多收藏500个商品(上限可后台配置)。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217768</data>
+  <data key="d6"></data>
+</node>
+<node id="购物车模块">
+  <data key="d0">购物车模块</data>
+  <data key="d1">concept</data>
+  <data key="d2">为用户提供商品暂存与批量结算前的过渡操作，支持加购、修改数量、删除、选中等能力，是订单系统的重要前置流程。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217768</data>
+  <data key="d6"></data>
+</node>
+<node id="已登录用户">
+  <data key="d0">已登录用户</data>
+  <data key="d1">person</data>
+  <data key="d2">已登录用户可以使用完整购物车功能(加购、修改、删除、提交结算)。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217769</data>
+  <data key="d6"></data>
+</node>
+<node id="未登录用户">
+  <data key="d0">未登录用户</data>
+  <data key="d1">person</data>
+  <data key="d2">未登录用户不支持购物车功能，前端可使用本地缓存模拟(不入后端)。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217769</data>
+  <data key="d6"></data>
+</node>
+<node id="F3.1加入购物车">
+  <data key="d0">F3.1加入购物车</data>
+  <data key="d1">method</data>
+  <data key="d2">用户在浏览商品时，若未准备立即购买，可先将商品加入购物车暂存，方便批量结算。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217769</data>
+  <data key="d6"></data>
+</node>
+<node id="F3.2修改商品数量 / 状态">
+  <data key="d0">F3.2修改商品数量 / 状态</data>
+  <data key="d1">method</data>
+  <data key="d2">支持用户在购物车中调整每项商品的购买数量，以及是否参与结算(选中状态)。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217769</data>
+  <data key="d6"></data>
+</node>
+<node id="F3.3删除购物车商品">
+  <data key="d0">F3.3删除购物车商品</data>
+  <data key="d1">method</data>
+  <data key="d2">用户可删除购物车中已失效或不再需要购买的商品，支持单个或批量删除操作。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217770</data>
+  <data key="d6"></data>
+</node>
+<node id="F3.4查询购物车列表">
+  <data key="d0">F3.4查询购物车列表</data>
+  <data key="d1">method</data>
+  <data key="d2">用户进入购物车页，可查看当前购物车中的所有商品项，包含名称、封面、价格、数量、选中状态等。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217770</data>
+  <data key="d6"></data>
+</node>
+<node id="商品ID非法">
+  <data key="d0">商品ID非法</data>
+  <data key="d1">error</data>
+  <data key="d2">提示登录商品ID非法：忽略操作并提示。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217770</data>
+  <data key="d6"></data>
+</node>
+<node id="商品已下架">
+  <data key="d0">商品已下架</data>
+  <data key="d1">error</data>
+  <data key="d2">商品不存在或已下架提示“该商品不可购买”。&lt;SEP&gt;商品已下架自动设为不可选中并提醒用户。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217772</data>
+  <data key="d6"></data>
+</node>
+<node id="用户未登录">
+  <data key="d0">用户未登录</data>
+  <data key="d1">error</data>
+  <data key="d2">用户未登录提示跳转登录页。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217772</data>
+  <data key="d6"></data>
+</node>
+<node id="购物车上限为100条记录">
+  <data key="d0">购物车上限为100条记录</data>
+  <data key="d1">rule</data>
+  <data key="d2">每个用户购物车上限为100条记录，默认选中状态为true。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217772</data>
+  <data key="d6"></data>
+</node>
+<node id="商品数量上限为库存值">
+  <data key="d0">商品数量上限为库存值</data>
+  <data key="d1">rule</data>
+  <data key="d2">商品数量上限为库存值，下限为1。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217773</data>
+  <data key="d6"></data>
+</node>
+<node id="数量超过库存">
+  <data key="d0">数量超过库存</data>
+  <data key="d1">error</data>
+  <data key="d2">数量超过库存提示“超过最大库存”。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217773</data>
+  <data key="d6"></data>
+</node>
+<node id="数量为负数">
+  <data key="d0">数量为负数</data>
+  <data key="d1">error</data>
+  <data key="d2">数量为负数拒绝并提示“数量不能小于1”。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217773</data>
+  <data key="d6"></data>
+</node>
+<node id="购物车商品">
+  <data key="d0">购物车商品</data>
+  <data key="d1">concept</data>
+  <data key="d2">购物车商品是用户在购物车中添加的商品项，可进行数量修改、选中、删除等操作。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217774</data>
+  <data key="d6"></data>
+</node>
+<node id="购物车列表">
+  <data key="d0">购物车列表</data>
+  <data key="d1">content</data>
+  <data key="d2">购物车列表展示所有属于该用户的购物车商品记录，包含名称、封面、价格、数量、选中状态等信息。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217774</data>
+  <data key="d6"></data>
+</node>
+<node id="数量选择器">
+  <data key="d0">数量选择器</data>
+  <data key="d1">method</data>
+  <data key="d2">数量选择器是购物车列表中的控件，允许用户通过+ / -控件实时修改商品数量。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217774</data>
+  <data key="d6"></data>
+</node>
+<node id="选中状态">
+  <data key="d0">选中状态</data>
+  <data key="d1">data</data>
+  <data key="d2">选中状态指示商品是否参与结算，用户可通过勾选框修改。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217775</data>
+  <data key="d6"></data>
+</node>
+<node id="删除操作按钮">
+  <data key="d0">删除操作按钮</data>
+  <data key="d1">method</data>
+  <data key="d2">删除操作按钮支持用户删除购物车中的单条商品记录。</data>
+  <data key="d3">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217775</data>
+  <data key="d6"></data>
+</node>
+<node id="用户ID">
+  <data key="d0">用户ID</data>
+  <data key="d1">data</data>
+  <data key="d2">A unique identifier for users.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217776</data>
+  <data key="d6"></data>
+</node>
+<node id="昵称">
+  <data key="d0">昵称</data>
+  <data key="d1">data</data>
+  <data key="d2">Nickname of the user.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217776</data>
+  <data key="d6"></data>
+</node>
+<node id="手机号">
+  <data key="d0">手机号</data>
+  <data key="d1">data</data>
+  <data key="d2">Phone number of the user.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217776</data>
+  <data key="d6"></data>
+</node>
+<node id="收货人">
+  <data key="d0">收货人</data>
+  <data key="d1">person</data>
+  <data key="d2">Recipient of the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217776</data>
+  <data key="d6"></data>
+</node>
+<node id="地址">
+  <data key="d0">地址</data>
+  <data key="d1">location</data>
+  <data key="d2">Shipping address of the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217777</data>
+  <data key="d6"></data>
+</node>
+<node id="电话">
+  <data key="d0">电话</data>
+  <data key="d1">data</data>
+  <data key="d2">Phone number of the recipient.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217778</data>
+  <data key="d6"></data>
+</node>
+<node id="数量">
+  <data key="d0">数量</data>
+  <data key="d1">data</data>
+  <data key="d2">Quantity of each ordered item.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217778</data>
+  <data key="d6"></data>
+</node>
+<node id="小计">
+  <data key="d0">小计</data>
+  <data key="d1">data</data>
+  <data key="d2">Subtotal for each item.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217779</data>
+  <data key="d6"></data>
+</node>
+<node id="发货时间">
+  <data key="d0">发货时间</data>
+  <data key="d1">data</data>
+  <data key="d2">Time when the order was shipped.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217779</data>
+  <data key="d6"></data>
+</node>
+<node id="发货人">
+  <data key="d0">发货人</data>
+  <data key="d1">person</data>
+  <data key="d2">Person who shipped the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217780</data>
+  <data key="d6"></data>
+</node>
+<node id="关闭时间">
+  <data key="d0">关闭时间</data>
+  <data key="d1">data</data>
+  <data key="d2">Time when the order was closed.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217781</data>
+  <data key="d6"></data>
+</node>
+<node id="关闭理由">
+  <data key="d0">关闭理由</data>
+  <data key="d1">data</data>
+  <data key="d2">Reason for order closure.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217781</data>
+  <data key="d6"></data>
+</node>
+<node id="快递公司">
+  <data key="d0">快递公司</data>
+  <data key="d1">organization</data>
+  <data key="d2">Shipping company used.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217781</data>
+  <data key="d6"></data>
+</node>
+<node id="运单号">
+  <data key="d0">运单号</data>
+  <data key="d1">data</data>
+  <data key="d2">Tracking number of the shipping.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217787</data>
+  <data key="d6"></data>
+</node>
+<node id="订单状态">
+  <data key="d0">订单状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">Current status of the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217788</data>
+  <data key="d6"></data>
+</node>
+<node id="支付状态">
+  <data key="d0">支付状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">Status of the payment.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217788</data>
+  <data key="d6"></data>
+</node>
+<node id="管理员">
+  <data key="d0">管理员</data>
+  <data key="d1">person</data>
+  <data key="d2">Administrator managing the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217789</data>
+  <data key="d6"></data>
+</node>
+<node id="关闭原因">
+  <data key="d0">关闭原因</data>
+  <data key="d1">data</data>
+  <data key="d2">Reason for closing the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217789</data>
+  <data key="d6"></data>
+</node>
+<node id="操作人">
+  <data key="d0">操作人</data>
+  <data key="d1">person</data>
+  <data key="d2">Person performing the operation.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217790</data>
+  <data key="d6"></data>
+</node>
+<node id="时间戳">
+  <data key="d0">时间戳</data>
+  <data key="d1">data</data>
+  <data key="d2">System-recorded timestamp of operations.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217790</data>
+  <data key="d6"></data>
+</node>
+<node id="订单编号">
+  <data key="d0">订单编号</data>
+  <data key="d1">data</data>
+  <data key="d2">Unique ID of the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217790</data>
+  <data key="d6"></data>
+</node>
+<node id="下单时间">
+  <data key="d0">下单时间</data>
+  <data key="d1">data</data>
+  <data key="d2">Time when the order was placed.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217790</data>
+  <data key="d6"></data>
+</node>
+<node id="支付金额">
+  <data key="d0">支付金额</data>
+  <data key="d1">data</data>
+  <data key="d2">Amount paid for the order.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="JSON/CSV">
+  <data key="d0">JSON/CSV</data>
+  <data key="d1">method</data>
+  <data key="d2">Format used for data export.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="用户管理">
+  <data key="d0">用户管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">Management of user accounts.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="用户状态">
+  <data key="d0">用户状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">Status of the user (active/banned).</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="行为数据分析">
+  <data key="d0">行为数据分析</data>
+  <data key="d1">method</data>
+  <data key="d2">Analysis of user behavior data.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="风险防控">
+  <data key="d0">风险防控</data>
+  <data key="d1">concept</data>
+  <data key="d2">Prevention of risks related to users.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217791</data>
+  <data key="d6"></data>
+</node>
+<node id="用户标签运营">
+  <data key="d0">用户标签运营</data>
+  <data key="d1">method</data>
+  <data key="d2">Marketing operations based on user categorization tags.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217792</data>
+  <data key="d6"></data>
+</node>
+<node id="商品明细">
+  <data key="d0">商品明细</data>
+  <data key="d1">content</data>
+  <data key="d2">Detailed list of ordered items including quantity, price, and subtotal.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217792</data>
+  <data key="d6"></data>
+</node>
+<node id="操作记录">
+  <data key="d0">操作记录</data>
+  <data key="d1">content</data>
+  <data key="d2">Log of actions taken on the order, including shipping and closure details.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217792</data>
+  <data key="d6"></data>
+</node>
+<node id="物流信息">
+  <data key="d0">物流信息</data>
+  <data key="d1">content</data>
+  <data key="d2">Shipping details including carrier, tracking number, and time.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217795</data>
+  <data key="d6"></data>
+</node>
+<node id="发货规则">
+  <data key="d0">发货规则</data>
+  <data key="d1">concept</data>
+  <data key="d2">Rules governing the shipping process, such as payment verification and immutability.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217795</data>
+  <data key="d6"></data>
+</node>
+<node id="关闭流程">
+  <data key="d0">关闭流程</data>
+  <data key="d1">concept</data>
+  <data key="d2">Procedures for closing orders, including state checks and refund requirements.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217795</data>
+  <data key="d6"></data>
+</node>
+<node id="导出订单列表">
+  <data key="d0">导出订单列表</data>
+  <data key="d1">method</data>
+  <data key="d2">Functionality for exporting order data to CSV or Excel for financial reconciliation.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217795</data>
+  <data key="d6"></data>
+</node>
+<node id="财务对账">
+  <data key="d0">财务对账</data>
+  <data key="d1">concept</data>
+  <data key="d2">Process of matching financial records with exported order data.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217795</data>
+  <data key="d6"></data>
+</node>
+<node id="ERP集成">
+  <data key="d0">ERP集成</data>
+  <data key="d1">concept</data>
+  <data key="d2">Integration with Enterprise Resource Planning systems for data exchange.</data>
+  <data key="d3">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217796</data>
+  <data key="d6"></data>
+</node>
+<node id="审核状态">
+  <data key="d0">审核状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">审核状态indicates whether content is approved or rejected in the system.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217796</data>
+  <data key="d6"></data>
+</node>
+<node id="驳回原因">
+  <data key="d0">驳回原因</data>
+  <data key="d1">concept</data>
+  <data key="d2">驳回原因specifies the reason for rejection, such as containing ads, abusive content, or false information.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217796</data>
+  <data key="d6"></data>
+</node>
+<node id="举报类型">
+  <data key="d0">举报类型</data>
+  <data key="d1">concept</data>
+  <data key="d2">举报类型categorizes user reports into types like pornography, abuse, ads, or plagiarism.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217796</data>
+  <data key="d6"></data>
+</node>
+<node id="举报人">
+  <data key="d0">举报人</data>
+  <data key="d1">concept</data>
+  <data key="d2">举报人refers to the user ID or nickname of the person who filed the report.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217797</data>
+  <data key="d6"></data>
+</node>
+<node id="被举报内容">
+  <data key="d0">被举报内容</data>
+  <data key="d1">concept</data>
+  <data key="d2">被举报内容contains the text or images of the reported content.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217797</data>
+  <data key="d6"></data>
+</node>
+<node id="评论状态">
+  <data key="d0">评论状态</data>
+  <data key="d1">concept</data>
+  <data key="d2">评论状态describes the current state of a comment, such as pending review, published, or deleted.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217797</data>
+  <data key="d6"></data>
+</node>
+<node id="轮播图管理">
+  <data key="d0">轮播图管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">轮播图管理involves managing the rotating display of images on the homepage.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217797</data>
+  <data key="d6"></data>
+</node>
+<node id="推荐商品位配置">
+  <data key="d0">推荐商品位配置</data>
+  <data key="d1">concept</data>
+  <data key="d2">用于配置首页推荐商品、分类推荐商品、搜索推荐区等，提升商品曝光和转化。&lt;SEP&gt;推荐商品位配置relates to configuring recommended product placements.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548&lt;SEP&gt;chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217797</data>
+  <data key="d6"></data>
+</node>
+<node id="首页公告栏配置">
+  <data key="d0">首页公告栏配置</data>
+  <data key="d1">concept</data>
+  <data key="d2">配置首页顶部或中部公告内容，用于展示节日通知、发货延迟、隐私更新等系统消息。&lt;SEP&gt;首页公告栏配置involves setting up the announcement bar on the homepage.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548&lt;SEP&gt;chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217798</data>
+  <data key="d6"></data>
+</node>
+<node id="推荐内容上下架控制">
+  <data key="d0">推荐内容上下架控制</data>
+  <data key="d1">concept</data>
+  <data key="d2">内容可随运营活动实时上架/下架，控制展示周期，灵活适配短促营销。&lt;SEP&gt;推荐内容上下架控制manages the visibility of recommended content.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548&lt;SEP&gt;chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217798</data>
+  <data key="d6"></data>
+</node>
+<node id="内容配置排序">
+  <data key="d0">内容配置排序</data>
+  <data key="d1">concept</data>
+  <data key="d2">内容配置排序allows arranging the order and display range of content.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217798</data>
+  <data key="d6"></data>
+</node>
+<node id="设为有效举报">
+  <data key="d0">设为有效举报</data>
+  <data key="d1">concept</data>
+  <data key="d2">设为有效举报hides the comment and sets its status to "举报处理中" when a report is deemed valid.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217799</data>
+  <data key="d6"></data>
+</node>
+<node id="驳回举报">
+  <data key="d0">驳回举报</data>
+  <data key="d1">concept</data>
+  <data key="d2">驳回举报retains the original content status with a remark if no violation is found.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217799</data>
+  <data key="d6"></data>
+</node>
+<node id="直接删除">
+  <data key="d0">直接删除</data>
+  <data key="d1">concept</data>
+  <data key="d2">直接删除refers to permanently hiding content for severe violations that merit immediate removal.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217799</data>
+  <data key="d6"></data>
+</node>
+<node id="操作权限管理">
+  <data key="d0">操作权限管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">操作权限管理restricts actions like review, deletion, or banning to specific roles, such as content administrators.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217799</data>
+  <data key="d6"></data>
+</node>
+<node id="日志可追踪">
+  <data key="d0">日志可追踪</data>
+  <data key="d1">concept</data>
+  <data key="d2">日志可追踪ensures all review and reporting actions are logged with details of the operator, time, and notes.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217800</data>
+  <data key="d6"></data>
+</node>
+<node id="举报入口依赖前台">
+  <data key="d0">举报入口依赖前台</data>
+  <data key="d1">concept</data>
+  <data key="d2">举报入口依赖前台requires the frontend to provide a report button and form for submitting reports.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217800</data>
+  <data key="d6"></data>
+</node>
+<node id="审核模式可配置">
+  <data key="d0">审核模式可配置</data>
+  <data key="d1">concept</data>
+  <data key="d2">审核模式可配置allows configuration of review modes like full auto-approval, manual review, or hybrid modes.</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217800</data>
+  <data key="d6"></data>
+</node>
+<node id="上下架规则">
+  <data key="d0">上下架规则</data>
+  <data key="d1">concept</data>
+  <data key="d2">Rules governing the availability of products to users, where delisted products become invisible and unpurchasable.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217800</data>
+  <data key="d6"></data>
+</node>
+<node id="删除策略">
+  <data key="d0">删除策略</data>
+  <data key="d1">concept</data>
+  <data key="d2">Strategy suggesting logical deletion of products to avoid data continuity issues.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217800</data>
+  <data key="d6"></data>
+</node>
+<node id="商品分类管理">
+  <data key="d0">商品分类管理</data>
+  <data key="d1">concept</data>
+  <data key="d2">Management of hierarchical product categories for backend maintenance and frontend display organization.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217801</data>
+  <data key="d6"></data>
+</node>
+<node id="分类树结构展示">
+  <data key="d0">分类树结构展示</data>
+  <data key="d1">method</data>
+  <data key="d2">Display of product categories in a tree structure, supporting multi-level nesting for comprehensive management.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217801</data>
+  <data key="d6"></data>
+</node>
+<node id="新增分类">
+  <data key="d0">新增分类</data>
+  <data key="d1">method</data>
+  <data key="d2">Process of adding new category nodes at any level for product organization.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217802</data>
+  <data key="d6"></data>
+</node>
+<node id="编辑分类">
+  <data key="d0">编辑分类</data>
+  <data key="d1">method</data>
+  <data key="d2">Modification of category attributes such as name, order, and icon, with restrictions on ID changes.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217802</data>
+  <data key="d6"></data>
+</node>
+<node id="启用/禁用分类">
+  <data key="d0">启用/禁用分类</data>
+  <data key="d1">method</data>
+  <data key="d2">Control over the visibility of categories in the frontend, allowing temporary or permanent hiding.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217803</data>
+  <data key="d6"></data>
+</node>
+<node id="删除分类">
+  <data key="d0">删除分类</data>
+  <data key="d1">method</data>
+  <data key="d2">Logical deletion of categories without actual database record removal, subject to specific conditions.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217803</data>
+  <data key="d6"></data>
+</node>
+<node id="分类名称">
+  <data key="d0">分类名称</data>
+  <data key="d1">data</data>
+  <data key="d2">Name field for product categories, e.g., '手机数码'.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217804</data>
+  <data key="d6"></data>
+</node>
+<node id="分类ID">
+  <data key="d0">分类ID</data>
+  <data key="d1">data</data>
+  <data key="d2">Unique identifier for product categories, with '0' representing top-level categories.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217804</data>
+  <data key="d6"></data>
+</node>
+<node id="父级ID">
+  <data key="d0">父级ID</data>
+  <data key="d1">data</data>
+  <data key="d2">Identifier for the parent category, determining the hierarchy level.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217804</data>
+  <data key="d6"></data>
+</node>
+<node id="排序值">
+  <data key="d0">排序值</data>
+  <data key="d1">data</data>
+  <data key="d2">Numeric value controlling the display order of categories.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217805</data>
+  <data key="d6"></data>
+</node>
+<node id="状态">
+  <data key="d0">状态</data>
+  <data key="d1">data</data>
+  <data key="d2">Indicator for whether a category is enabled or disabled for frontend display.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217805</data>
+  <data key="d6"></data>
+</node>
+<node id="分类路径缓存">
+  <data key="d0">分类路径缓存</data>
+  <data key="d1">data</data>
+  <data key="d2">Cached data representing the hierarchical path of product categories for quick retrieval.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217806</data>
+  <data key="d6"></data>
+</node>
+<node id="递归结构">
+  <data key="d0">递归结构</data>
+  <data key="d1">concept</data>
+  <data key="d2">A structural condition where a category cannot be its own parent to avoid logical loops.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217806</data>
+  <data key="d6"></data>
+</node>
+<node id="逻辑禁用">
+  <data key="d0">逻辑禁用</data>
+  <data key="d1">concept</data>
+  <data key="d2">A state where products or categories are hidden but retain their underlying associations.</data>
+  <data key="d3">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217806</data>
+  <data key="d6"></data>
+</node>
+<node id="轮播图">
+  <data key="d0">轮播图</data>
+  <data key="d1">content</data>
+  <data key="d2">轮播图位于首页顶部，是用户进入页面后的第一视觉焦点，常用于推广活动、热卖商品、专题页引导。</data>
+  <data key="d3">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217806</data>
+  <data key="d6"></data>
+</node>
+<node id="Carousel Image Management">
+  <data key="d0">Carousel Image Management</data>
+  <data key="d1">content</data>
+  <data key="d2">Carousel images are located at the top of the homepage and serve as the first visual focus for users, often used for promotions, hot-selling items, and guiding users to special pages.</data>
+  <data key="d3">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217806</data>
+  <data key="d6"></data>
+</node>
+<node id="Recommended Products Section">
+  <data key="d0">Recommended Products Section</data>
+  <data key="d1">content</data>
+  <data key="d2">Used to configure recommended products on the homepage, category recommendations, and search recommendation areas to increase product exposure and conversion.</data>
+  <data key="d3">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217807</data>
+  <data key="d6"></data>
+</node>
+<node id="Homepage Bulletin Board">
+  <data key="d0">Homepage Bulletin Board</data>
+  <data key="d1">content</data>
+  <data key="d2">Configures announcement content at the top or middle of the homepage, displaying system messages like holiday notices, shipping delays, and privacy updates.</data>
+  <data key="d3">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217807</data>
+  <data key="d6"></data>
+</node>
+<node id="Recommended Content Toggle Control">
+  <data key="d0">Recommended Content Toggle Control</data>
+  <data key="d1">content</data>
+  <data key="d2">Allows real-time toggling of content display status to match short-term marketing needs.</data>
+  <data key="d3">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217807</data>
+  <data key="d6"></data>
+</node>
+<node id="商品管理">
+  <data key="d0">商品管理</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d2">运营人员具有商品管理的各项操作权限。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217829</data>
+  <data key="d6"></data>
+</node>
+<node id="图片上传">
+  <data key="d0">图片上传</data>
+  <data key="d3">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d2">图片上传建议使用CDN进行统一存储和管理。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217832</data>
+  <data key="d6"></data>
+</node>
+<node id="投诉率高/多次退款">
+  <data key="d0">投诉率高/多次退款</data>
+  <data key="d3">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d2">黑名单监控tracks users with high complaint rates or frequent refunds.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217848</data>
+  <data key="d6"></data>
+</node>
+<node id="内容审核服务">
+  <data key="d0">内容审核服务</data>
+  <data key="d3">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d2">内容审核服务helps determine审核状态by scanning for policy violations.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">需求说明书.md</data>
+  <data key="d5">1792217870</data>
+  <data key="d6"></data>
+</node>
+<edge source="Online Shopping System" target="B2C Mall Platform">
+  <data key="d7">1.0</data>
+  <data key="d8">The Online Shopping System is implemented as a B2C Mall Platform with core e-commerce functionalities.</data>
+  <data key="d9">functionality,system deployment</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217808</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Online Shopping System" target="User Module">
+  <data key="d7">1.0</data>
+  <data key="d8">The User Module is an integral part of the Online Shopping System, handling user-related functionalities.</data>
+  <data key="d9">module integration,user management</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217809</data>
+  <data key="d13"></data>
+</edge>
+<edge source="B2C Mall Platform" target="Background Management User">
+  <data key="d7">1.0</data>
+  <data key="d8">Background Management Users have administrative roles with capabilities to manage the platform (though not implemented in the current version).</data>
+  <data key="d9">admin role,system management</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217809</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Module" target="Ordinary User">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users interact directly with the User Module for registration, login, and profile management.</data>
+  <data key="d9">access control,role assignment</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217808</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ordinary User" target="User Registration">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users can perform User Registration to create their accounts.</data>
+  <data key="d9">action permission,user creation</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217809</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ordinary User" target="User Login">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users use the User Login function to authenticate and access the system.</data>
+  <data key="d9">access,authentication</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217810</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ordinary User" target="User Information Modification">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users can modify their personal information using the User Information Modification function.</data>
+  <data key="d9">customization,profile update</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ordinary User" target="Phone/Email Binding">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users can bind or update their phone or email for added security and notification capabilities.</data>
+  <data key="d9">notification,security enhancement</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Ordinary User" target="Shipping Address Management">
+  <data key="d7">1.0</data>
+  <data key="d8">Ordinary Users manage their shipping addresses for order delivery through the Shipping Address Management function.</data>
+  <data key="d9">logistics,order fulfillment</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217818</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Registration" target="User Registration Status Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">User Registration applies status rules to new accounts including normal status and timestamp.</data>
+  <data key="d9">initialization,status definition</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217810</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Registration" target="User Registration Business Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">User Registration enforces business rules for username, password and email format validation.</data>
+  <data key="d9">constraints,validation criteria</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217810</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Login" target="Login Status Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">User Login triggers status rule updates for active time and security logs.</data>
+  <data key="d9">activity tracking,security logging</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Login" target="Login Business Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">User Login implements business rules for login credential types and account verification.</data>
+  <data key="d9">account verification,authentication methods</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User Information Modification" target="User Information Business Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">User Information Modification enforces business rules for profile field validations.</data>
+  <data key="d9">content restrictions,input validation</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Phone/Email Binding" target="Verification Code">
+  <data key="d7">1.0</data>
+  <data key="d8">Verification Codes are used for authenticating phone or email bindings.</data>
+  <data key="d9">security,validation method</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217809</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Verification Code" target="Verification Code Rules">
+  <data key="d7">1.0</data>
+  <data key="d8">Verification Code functionality operates according to defined rules for security and validation.</data>
+  <data key="d9">security constraints,validation parameters</data>
+  <data key="d10">chunk-5c580048bd9e0d0c800b7ef06538acb4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217811</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Verification Code" target="F1.6">
+  <data key="d7">1.0</data>
+  <data key="d8">F1.6 functionality generates and validates verification codes for users.</data>
+  <data key="d9">generation,validation</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217842</data>
+  <data key="d13"></data>
+</edge>
+<edge source="运营人员" target="用户标签管理">
+  <data key="d7">1.0</data>
+  <data key="d8">运营人员负责用户标签管理工作。</data>
+  <data key="d9">operation,运营</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="运营人员" target="商品管理">
+  <data key="d7">1.0</data>
+  <data key="d8">运营人员具有商品管理的各项操作权限。</data>
+  <data key="d9">authorization,control</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217830</data>
+  <data key="d13"></data>
+</edge>
+<edge source="运营人员" target="用户标签运营">
+  <data key="d7">1.0</data>
+  <data key="d8">Operations staff utilize user tags for marketing.</data>
+  <data key="d9">segmentation,targeting</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217863</data>
+  <data key="d13"></data>
+</edge>
+<edge source="系统管理员" target="封禁/解封用户">
+  <data key="d7">1.0</data>
+  <data key="d8">系统管理员拥有封禁和解封用户的权限。</data>
+  <data key="d9">权限,管理</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="系统管理员" target="用户状态">
+  <data key="d7">1.0</data>
+  <data key="d8">Administrators can modify user status.</data>
+  <data key="d9">authorization,control</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217863</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户列表查询" target="查看用户详情">
+  <data key="d7">1.0</data>
+  <data key="d8">用户列表查询和查看用户详情是两个相关的功能，用于展示用户信息。</data>
+  <data key="d9">信息展示,功能</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户列表查询" target="筛选条件">
+  <data key="d7">1.0</data>
+  <data key="d8">用户列表查询功能支持多种筛选条件来定位用户。</data>
+  <data key="d9">filtering,search</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217813</data>
+  <data key="d13"></data>
+</edge>
+<edge source="封禁/解封用户" target="封禁状态">
+  <data key="d7">1.0</data>
+  <data key="d8">封禁/解封用户功能控制用户的登录状态。</data>
+  <data key="d9">functionality,state control</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户标签管理" target="用户标签">
+  <data key="d7">1.0</data>
+  <data key="d8">用户标签管理功能允许运营人员管理和应用用户标签。</data>
+  <data key="d9">classification,operation</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="重置用户密码" target="超级管理员">
+  <data key="d7">2.0</data>
+  <data key="d8">超级管理员拥有重置用户密码的权限。&lt;SEP&gt;超级管理员can perform the重置用户密码operation.</data>
+  <data key="d9">permission,security,操作,权限</data>
+  <data key="d10">chunk-fb3f89459653a1af6e737cd351c292a3&lt;SEP&gt;chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217812</data>
+  <data key="d13"></data>
+</edge>
+<edge source="重置用户密码" target="客服主管">
+  <data key="d7">1.0</data>
+  <data key="d8">客服主管can perform the重置用户密码operation.</data>
+  <data key="d9">permission,security</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217849</data>
+  <data key="d13"></data>
+</edge>
+<edge source="重置用户密码" target="操作日志">
+  <data key="d7">1.0</data>
+  <data key="d8">重置用户密码actions are recorded in操作日志.</data>
+  <data key="d9">accountability,logging</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="重置用户密码" target="站内信">
+  <data key="d7">1.0</data>
+  <data key="d8">Password resets trigger站内信notifications to users.</data>
+  <data key="d9">notification,security</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217853</data>
+  <data key="d13"></data>
+</edge>
+<edge source="重置用户密码" target="短信">
+  <data key="d7">1.0</data>
+  <data key="d8">Password resets trigger短信notifications to users.</data>
+  <data key="d9">notification,security</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217857</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Backend Category Tree" target="Is_Deleted Flag">
+  <data key="d7">1.0</data>
+  <data key="d8">Setting the is_deleted flag to true hides the category in the backend category tree.</data>
+  <data key="d9">data management,visibility control</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Backend Category Tree" target="Historical Order Data">
+  <data key="d7">1.0</data>
+  <data key="d8">Data is retained in the backend category tree for historical order tracking and analysis.</data>
+  <data key="d9">data retention,traceability</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217816</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Category Hierarchy" target="Product Dependency">
+  <data key="d7">1.0</data>
+  <data key="d8">Products must be bound to the most granular level in the category hierarchy for better filtering.</data>
+  <data key="d9">binding rules,classification system</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Management Module" target="Order List Pagination Query">
+  <data key="d7">1.0</data>
+  <data key="d8">The order management module includes the order list pagination query for viewing and filtering orders.</data>
+  <data key="d9">data access,functionality</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217815</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order List Pagination Query" target="Order Status">
+  <data key="d7">1.0</data>
+  <data key="d8">Order status is a key filtering condition in the order list pagination query.</data>
+  <data key="d9">filtering,order tracking</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217816</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order List Pagination Query" target="Order Number">
+  <data key="d7">1.0</data>
+  <data key="d8">Order numbers are used as a primary search parameter in the pagination query.</data>
+  <data key="d9">identification,search criteria</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order List Pagination Query" target="User Phone Number">
+  <data key="d7">1.0</data>
+  <data key="d8">User phone numbers serve as a searchable field for locating specific orders.</data>
+  <data key="d9">customer lookup,filtering</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217819</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Status" target="Order Module">
+  <data key="d7">1.0</data>
+  <data key="d8">The order module manages the status of each order through its lifecycle stages.</data>
+  <data key="d9">lifecycle management</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217820</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Status" target="Order">
+  <data key="d7">1.0</data>
+  <data key="d8">An order transitions through different states like '待支付', '已发货', or '已完成'.</data>
+  <data key="d9">state,tracking</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217834</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Detail View" target="Product List">
+  <data key="d7">1.0</data>
+  <data key="d8">Product lists are displayed in the order detail view to show purchased items.</data>
+  <data key="d9">inventory details,order composition</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217816</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Detail View" target="Shipping Time">
+  <data key="d7">1.0</data>
+  <data key="d8">Shipping times are recorded in order details to track fulfillment progress.</data>
+  <data key="d9">fulfillment tracking,order progress</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Detail View" target="Shipper">
+  <data key="d7">1.0</data>
+  <data key="d8">Shipper information is included in order details to document who processed the shipment.</data>
+  <data key="d9">accountability,responsibility assignment</data>
+  <data key="d10">chunk-48ac710eb93cdc1624990ce539037710</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217818</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Number" target="Order">
+  <data key="d7">1.0</data>
+  <data key="d8">Each order has a unique number for tracking and reference.</data>
+  <data key="d9">identification,unique ID</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217834</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="Product Module">
+  <data key="d7">1.0</data>
+  <data key="d8">Shopping cart interacts with the product module to handle invalid or removed products.</data>
+  <data key="d9">data consistency,integration</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217817</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="Order Module">
+  <data key="d7">1.0</data>
+  <data key="d8">Selected items from the shopping cart are submitted to the order module for processing.</data>
+  <data key="d9">integration,submission</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217818</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="Login Restriction">
+  <data key="d7">1.0</data>
+  <data key="d8">Login requirement enforces authentication for shopping cart operations and data persistence.</data>
+  <data key="d9">access control,data persistence</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217819</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="State Persistence">
+  <data key="d7">1.0</data>
+  <data key="d8">Real-time database writes ensure shopping cart modifications are persistent.</data>
+  <data key="d9">data integrity,real-time updates</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217820</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="Performance Optimization">
+  <data key="d7">1.0</data>
+  <data key="d8">Optimizes shopping cart performance through caching and delayed stock checks.</data>
+  <data key="d9">caching,delayed verification</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217821</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Shopping Cart Module" target="Product">
+  <data key="d7">1.0</data>
+  <data key="d8">Shopping cart holds products temporarily for batch checkout.</data>
+  <data key="d9">batch processing,temporary storage</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217846</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Payment System">
+  <data key="d7">1.0</data>
+  <data key="d8">The order module interfaces with the payment system to manage and record transactions.</data>
+  <data key="d9">integration,payment processing</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217818</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="User ID">
+  <data key="d7">1.0</data>
+  <data key="d8">Each order is linked to a user ID, ensuring proper user association and access control.</data>
+  <data key="d9">association,authentication</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217819</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Order ID">
+  <data key="d7">1.0</data>
+  <data key="d8">Unique order IDs are generated for each transaction to facilitate tracking and management.</data>
+  <data key="d9">identification,tracking</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217820</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Delivery Address">
+  <data key="d7">1.0</data>
+  <data key="d8">Delivery addresses are specified during order submission for fulfillment purposes.</data>
+  <data key="d9">order fulfillment,shipping</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217822</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Product Price">
+  <data key="d7">1.0</data>
+  <data key="d8">Product prices contribute to the total order amount calculated by the order module.</data>
+  <data key="d9">order total,pricing</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217823</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Shipping Fee">
+  <data key="d7">1.0</data>
+  <data key="d8">Shipping fees are added to the order total as specified by the configuration.</data>
+  <data key="d9">additional charges,order total</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217823</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Order Lifecycle">
+  <data key="d7">1.0</data>
+  <data key="d8">Defines and manages the various stages an order goes through.</data>
+  <data key="d9">management,status tracking</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Order Confirmation Page">
+  <data key="d7">1.0</data>
+  <data key="d8">Displays order information for final confirmation by the user.</data>
+  <data key="d9">order details,user verification</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order Module" target="Payment Success Page">
+  <data key="d7">1.0</data>
+  <data key="d8">Shown to users upon successful completion of the payment process.</data>
+  <data key="d9">feedback,transaction completion</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217826</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Payment System" target="WeChat">
+  <data key="d7">1.0</data>
+  <data key="d8">WeChat is part of the payment system for handling transactions.</data>
+  <data key="d9">integration,payment processing</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217820</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Payment System" target="Alipay">
+  <data key="d7">1.0</data>
+  <data key="d8">Alipay is part of the payment system for handling transactions.</data>
+  <data key="d9">integration,payment processing</data>
+  <data key="d10">chunk-7fd66117ad0b74ac47c8f441d7bf29ec</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217821</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品管理员" target="商品列表">
+  <data key="d7">1.0</data>
+  <data key="d8">商品管理员负责查看和管理商品列表。</data>
+  <data key="d9">management,viewing</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217822</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="商品ID">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表包含商品ID作为唯一标识。</data>
+  <data key="d9">identification,listing</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="商品标题">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表展示商品标题作为前台名称。</data>
+  <data key="d9">display,naming</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217824</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="所属分类">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表按所属分类组织商品。</data>
+  <data key="d9">categorization,organization</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217825</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="单价">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表展示商品的单价。</data>
+  <data key="d9">display,pricing</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217825</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="库存">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表跟踪商品的库存数量。</data>
+  <data key="d9">inventory,tracking</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217827</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="上下架状态">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表显示商品的上下架状态。</data>
+  <data key="d9">control,status</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217827</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="操作">
+  <data key="d7">1.0</data>
+  <data key="d8">商品列表提供操作如编辑、上下架、删除商品。</data>
+  <data key="d9">actions,management</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217828</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="新增商品">
+  <data key="d7">1.0</data>
+  <data key="d8">新增商品功能向商品列表添加新商品。</data>
+  <data key="d9">addition,creation</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217832</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="编辑商品">
+  <data key="d7">1.0</data>
+  <data key="d8">编辑商品功能更新商品列表中的商品信息。</data>
+  <data key="d9">modification,update</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217833</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="商品上下架">
+  <data key="d7">1.0</data>
+  <data key="d8">商品上下架功能调整商品在前台的展示状态。</data>
+  <data key="d9">status change,visibility</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="删除商品">
+  <data key="d7">1.0</data>
+  <data key="d8">删除商品功能逻辑删除商品列表中的商品。</data>
+  <data key="d9">deactivation,removal</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品列表" target="主图">
+  <data key="d7">1.0</data>
+  <data key="d8">主图在商品列表和详情页显示用于商品识别。</data>
+  <data key="d9">identification,visual display</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品标题" target="购物车列表">
+  <data key="d7">1.0</data>
+  <data key="d8">商品标题是购物车列表中展示的一个字段。</data>
+  <data key="d9">display field,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="所属分类" target="分类管理模块">
+  <data key="d7">1.0</data>
+  <data key="d8">分类管理模块维护商品的所属分类。</data>
+  <data key="d9">maintenance,organization</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217827</data>
+  <data key="d13"></data>
+</edge>
+<edge source="单价" target="购物车列表">
+  <data key="d7">1.0</data>
+  <data key="d8">单价是购物车列表中展示的一个字段。</data>
+  <data key="d9">display field,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="新增商品" target="商品详情">
+  <data key="d7">1.0</data>
+  <data key="d8">新增商品时需要填写商品详情内容。</data>
+  <data key="d9">content creation,description</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217828</data>
+  <data key="d13"></data>
+</edge>
+<edge source="删除商品" target="逻辑删除">
+  <data key="d7">1.0</data>
+  <data key="d8">删除商品功能采用逻辑删除方式保证数据安全。</data>
+  <data key="d9">data management,safety</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="删除商品" target="物理删除">
+  <data key="d7">1.0</data>
+  <data key="d8">商品存在有效订单时不允许进行物理删除。</data>
+  <data key="d9">data removal,restriction</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217841</data>
+  <data key="d13"></data>
+</edge>
+<edge source="逻辑删除" target="直接删除">
+  <data key="d7">1.0</data>
+  <data key="d8">直接删除applies逻辑删除to hide content while retaining it in the database.</data>
+  <data key="d9">content removal,data retention</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217865</data>
+  <data key="d13"></data>
+</edge>
+<edge source="逻辑删除" target="删除策略">
+  <data key="d7">1.0</data>
+  <data key="d8">Logical deletion is the recommended method under the deletion strategy to prevent data loss.</data>
+  <data key="d9">data retention,preservation</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217869</data>
+  <data key="d13"></data>
+</edge>
+<edge source="CDN" target="图片上传">
+  <data key="d7">1.0</data>
+  <data key="d8">图片上传建议使用CDN进行统一存储和管理。</data>
+  <data key="d9">optimization,storage</data>
+  <data key="d10">chunk-d724086a63fc6f7bdc9da4256a2424f0</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217833</data>
+  <data key="d13"></data>
+</edge>
+<edge source="CDN" target="Review Image">
+  <data key="d7">1.0</data>
+  <data key="d8">Review images are stored and delivered via CDN for faster access.</data>
+  <data key="d9">delivery,storage</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217845</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Order">
+  <data key="d7">1.0</data>
+  <data key="d8">A user can place and manage their orders.</data>
+  <data key="d9">interaction,purchase</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217833</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Review">
+  <data key="d7">1.0</data>
+  <data key="d8">A user can provide reviews for products they purchased.</data>
+  <data key="d9">evaluation,feedback</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217834</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="F1.5">
+  <data key="d7">1.0</data>
+  <data key="d8">Users can manage their delivery addresses, including adding, editing, and setting defaults.</data>
+  <data key="d9">address management,user action</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217840</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="F1.6">
+  <data key="d7">1.0</data>
+  <data key="d8">Users interact with F1.6 to obtain verification codes for authentication purposes.</data>
+  <data key="d9">authentication,security</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217841</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="F2.4">
+  <data key="d7">1.0</data>
+  <data key="d8">Logged-in users can favorite or unfavorite products for easier access later.</data>
+  <data key="d9">favorite,user preference</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217842</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Shopping Cart">
+  <data key="d7">1.0</data>
+  <data key="d8">Users can add products to the shopping cart for later purchase.</data>
+  <data key="d9">checkout preparation,temporary storage</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217843</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Comment">
+  <data key="d7">1.0</data>
+  <data key="d8">Users can leave comments/reviews on product detail pages.</data>
+  <data key="d9">evaluation,feedback</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217846</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Anonymous User">
+  <data key="d7">1.0</data>
+  <data key="d8">Users may choose to post reviews anonymously with generated usernames.</data>
+  <data key="d9">display,privacy</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217847</data>
+  <data key="d13"></data>
+</edge>
+<edge source="User" target="Product">
+  <data key="d7">1.0</data>
+  <data key="d8">Users can submit reviews for products they have purchased once per order.</data>
+  <data key="d9">purchase,review</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217848</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order" target="Shopping Cart">
+  <data key="d7">1.0</data>
+  <data key="d8">After an order is placed, the shopping cart clears selected items.</data>
+  <data key="d9">clearing,transition</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217835</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order" target="Shipping Information">
+  <data key="d7">1.0</data>
+  <data key="d8">An order includes shipping information for the delivery of purchased items.</data>
+  <data key="d9">delivery,details</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217836</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order" target="Payment Time">
+  <data key="d7">1.0</data>
+  <data key="d8">The payment time is recorded as part of the order details.</data>
+  <data key="d9">timing,transaction</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217838</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Order" target="Logistics Information">
+  <data key="d7">1.0</data>
+  <data key="d8">Logistics information is provided to track the delivery status of an order.</data>
+  <data key="d9">shipment,tracking</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217838</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Review Image">
+  <data key="d7">2.0</data>
+  <data key="d8">Reviews can include images to support the feedback.&lt;SEP&gt;Reviews may include images to enhance credibility and visual appeal.</data>
+  <data key="d9">illustration,supplement,verification,visual proof</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217840</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Product">
+  <data key="d7">2.0</data>
+  <data key="d8">Reviews from users influence the product's reputation and score.&lt;SEP&gt;Reviews provide feedback and ratings for specific products.</data>
+  <data key="d9">evaluation,feedback,impact,rating</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4&lt;SEP&gt;chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217841</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Comment Submission">
+  <data key="d7">1.0</data>
+  <data key="d8">Users submit reviews by entering comments, ratings, and optionally uploading images.</data>
+  <data key="d9">feedback,process</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217842</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Comment Filtering">
+  <data key="d7">1.0</data>
+  <data key="d8">Reviews can be filtered to display specific types such as positive, negative, or those with images.</data>
+  <data key="d9">organization,searchability</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217843</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Star Rating">
+  <data key="d7">1.0</data>
+  <data key="d8">Reviews include a mandatory star rating between 1-5 stars.</data>
+  <data key="d9">evaluation,metric</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217847</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Review" target="Review Audit">
+  <data key="d7">1.0</data>
+  <data key="d8">All submitted reviews undergo an audit process before publication.</data>
+  <data key="d9">content control,validation</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217848</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="Product Review Score">
+  <data key="d7">1.0</data>
+  <data key="d8">The product's review score is calculated based on user feedback.</data>
+  <data key="d9">aggregation,calculation</data>
+  <data key="d10">chunk-f67c22333827a4001ee4bd007c36b2b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217842</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="F2.1">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.1 displays products on the homepage, including recommended items.</data>
+  <data key="d9">display,recommendation</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217843</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="F2.2">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.2 allows users to browse and filter products based on various criteria.</data>
+  <data key="d9">browsing,filtering</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217844</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="F2.3">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.3 provides detailed information about products, including images and reviews.</data>
+  <data key="d9">details,information</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217844</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="F2.4">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.4 enables users to mark products as favorites for future reference.</data>
+  <data key="d9">favorite,user interaction</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217845</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="Product Detail Page">
+  <data key="d7">1.0</data>
+  <data key="d8">Products are displayed on detail pages alongside their reviews.</data>
+  <data key="d9">display,information</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217849</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="Admin">
+  <data key="d7">1.0</data>
+  <data key="d8">Admins can manage product listings, including adding, editing, and removing products.</data>
+  <data key="d9">listing,management</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217851</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Product" target="Comment Statistics">
+  <data key="d7">1.0</data>
+  <data key="d8">Products display aggregated review statistics for quick reference.</data>
+  <data key="d9">performance indicator,summary</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Comment Filtering" target="Product Detail Page">
+  <data key="d7">1.0</data>
+  <data key="d8">Detail pages allow users to filter and sort reviews to find relevant feedback.</data>
+  <data key="d9">navigation,user experience</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217846</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F1.5" target="Default Address">
+  <data key="d7">1.0</data>
+  <data key="d8">F1.5 functionality manages and automatically selects default addresses.</data>
+  <data key="d9">auto-selection,setting</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217844</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F1.6" target="SMS/Email">
+  <data key="d7">1.0</data>
+  <data key="d8">Verification codes are sent to users via SMS or email.</data>
+  <data key="d9">communication,delivery</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217843</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F2.1" target="Carousel">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.1 functionality displays featured products and promotions in a carousel.</data>
+  <data key="d9">display,featured content</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217844</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F2.1" target="Category">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.1 shows product categories to help users navigate the marketplace.</data>
+  <data key="d9">navigation,organization</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217845</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F2.3" target="Comment">
+  <data key="d7">1.0</data>
+  <data key="d8">F2.3 displays product comments to help users make purchase decisions.</data>
+  <data key="d9">review system,user feedback</data>
+  <data key="d10">chunk-4f8ffd2ae3f805dacd90df9af59d12fc</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217845</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Admin" target="Super Admin">
+  <data key="d7">1.0</data>
+  <data key="d8">Super admins have higher permissions than regular admins for system oversight.</data>
+  <data key="d9">authorization,oversight</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Admin" target="Product Management">
+  <data key="d7">1.0</data>
+  <data key="d8">Administrators use the product management module to maintain catalog.</data>
+  <data key="d9">administration,maintenance</data>
+  <data key="d10">chunk-7f59eb2a5e7cbc27f89afa62305bd55f</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217855</data>
+  <data key="d13"></data>
+</edge>
+<edge source="黑名单监控" target="投诉率高/多次退款">
+  <data key="d7">1.0</data>
+  <data key="d8">黑名单监控tracks users with high complaint rates or frequent refunds.</data>
+  <data key="d9">criteria,monitoring</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217849</data>
+  <data key="d13"></data>
+</edge>
+<edge source="标签管理" target="自动打标签">
+  <data key="d7">1.0</data>
+  <data key="d8">标签管理includes the capability of自动打标签.</data>
+  <data key="d9">automation,efficiency</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217849</data>
+  <data key="d13"></data>
+</edge>
+<edge source="标签管理" target="标签管理扩展性">
+  <data key="d7">1.0</data>
+  <data key="d8">标签管理扩展性enhances the functionality of标签管理.</data>
+  <data key="d9">flexibility,scalability</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217851</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户状态管理" target="安全机制">
+  <data key="d7">1.0</data>
+  <data key="d8">用户状态管理is part of the platform's安全机制.</data>
+  <data key="d9">management,security</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217851</data>
+  <data key="d13"></data>
+</edge>
+<edge source="安全机制" target="导出权限限制">
+  <data key="d7">1.0</data>
+  <data key="d8">导出权限限制is a component of the platform's安全机制.</data>
+  <data key="d9">data protection,security</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="安全机制" target="双人复核">
+  <data key="d7">1.0</data>
+  <data key="d8">双人复核is part of the platform's安全机制.</data>
+  <data key="d9">security,verification</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217853</data>
+  <data key="d13"></data>
+</edge>
+<edge source="标签管理扩展性" target="定时任务">
+  <data key="d7">1.0</data>
+  <data key="d8">标签管理扩展性utilizes定时任务for periodic tag updates.</data>
+  <data key="d9">automation,maintenance</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217853</data>
+  <data key="d13"></data>
+</edge>
+<edge source="导出权限限制" target="审批流程">
+  <data key="d7">1.0</data>
+  <data key="d8">导出权限限制requires an审批流程for data exports.</data>
+  <data key="d9">control,data protection</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217854</data>
+  <data key="d13"></data>
+</edge>
+<edge source="评价管理" target="查看评价列表">
+  <data key="d7">1.0</data>
+  <data key="d8">查看评价列表is a feature within评价管理.</data>
+  <data key="d9">filtering,monitoring</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217852</data>
+  <data key="d13"></data>
+</edge>
+<edge source="评价管理" target="审核/驳回评论">
+  <data key="d7">1.0</data>
+  <data key="d8">审核/驳回评论is a feature within评价管理.</data>
+  <data key="d9">content control,moderation</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217853</data>
+  <data key="d13"></data>
+</edge>
+<edge source="评价管理" target="用户举报处理">
+  <data key="d7">1.0</data>
+  <data key="d8">用户举报处理is a feature within评价管理.</data>
+  <data key="d9">compliance,resolution</data>
+  <data key="d10">chunk-d13fd88113bb3db1365c36313d668142</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217854</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品封面" target="购物车列表">
+  <data key="d7">1.0</data>
+  <data key="d8">商品封面是购物车列表中展示的一个字段。</data>
+  <data key="d9">display field,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217859</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品收藏状态" target="同一用户收藏同一商品仅记录一次">
+  <data key="d7">1.0</data>
+  <data key="d8">商品收藏状态关联到同一用户收藏同一商品仅记录一次的规则。</data>
+  <data key="d9">business rule,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217854</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品收藏状态" target="用户可最多收藏500个商品">
+  <data key="d7">1.0</data>
+  <data key="d8">商品收藏状态关联到用户可最多收藏500个商品的规则。</data>
+  <data key="d9">business rule,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217856</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="已登录用户">
+  <data key="d7">1.0</data>
+  <data key="d8">购物车模块允许已登录用户使用完整购物车功能。</data>
+  <data key="d9">functionality,user role</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217855</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="未登录用户">
+  <data key="d7">1.0</data>
+  <data key="d8">购物车模块限制未登录用户只能使用前端模拟缓存，不能持久化写入后端。</data>
+  <data key="d9">limitation,user role</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217855</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="F3.1加入购物车">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车是购物车模块的一个功能。</data>
+  <data key="d9">component,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217856</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="F3.2修改商品数量 / 状态">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.2修改商品数量 / 状态是购物车模块的一个功能。</data>
+  <data key="d9">component,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217857</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="F3.3删除购物车商品">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.3删除购物车商品是购物车模块的一个功能。</data>
+  <data key="d9">component,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217858</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车模块" target="F3.4查询购物车列表">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.4查询购物车列表是购物车模块的一个功能。</data>
+  <data key="d9">component,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217859</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.1加入购物车" target="商品ID非法">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车功能需要处理商品ID非法的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217857</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.1加入购物车" target="商品已下架">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车功能需要处理商品已下架的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217858</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.1加入购物车" target="用户未登录">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车功能需要处理用户未登录的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217858</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.1加入购物车" target="购物车上限为100条记录">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车功能受购物车上限为100条记录的规则限制。</data>
+  <data key="d9">business rule,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.1加入购物车" target="商品数量上限为库存值">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.1加入购物车功能受商品数量上限为库存值的规则限制。</data>
+  <data key="d9">business rule,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217862</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.2修改商品数量 / 状态" target="数量超过库存">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.2修改商品数量 / 状态功能需要处理数量超过库存的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217858</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.2修改商品数量 / 状态" target="数量为负数">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.2修改商品数量 / 状态功能需要处理数量为负数的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217859</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.2修改商品数量 / 状态" target="商品已下架">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.2修改商品数量 / 状态功能需要处理商品已下架的错误情况。</data>
+  <data key="d9">error handling,limitation</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="F3.4查询购物车列表" target="购物车商品">
+  <data key="d7">1.0</data>
+  <data key="d8">F3.4查询购物车列表功能返回购物车中的商品数据。</data>
+  <data key="d9">data retrieval,query result</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217860</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车列表" target="数量选择器">
+  <data key="d7">1.0</data>
+  <data key="d8">数量选择器是购物车列表中用户可交互的功能元素。</data>
+  <data key="d9">functionality,interactive element</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217861</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车列表" target="选中状态">
+  <data key="d7">1.0</data>
+  <data key="d8">选中状态是购物车列表中展示并可修改的字段。</data>
+  <data key="d9">display field,functionality</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217862</data>
+  <data key="d13"></data>
+</edge>
+<edge source="购物车列表" target="删除操作按钮">
+  <data key="d7">1.0</data>
+  <data key="d8">删除操作按钮是购物车列表中用户可交互的功能元素。</data>
+  <data key="d9">functionality,interactive element</data>
+  <data key="d10">chunk-96d780916eb31d8b69fb52d7a96d509d</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217863</data>
+  <data key="d13"></data>
+</edge>
+<edge source="订单状态" target="发货规则">
+  <data key="d7">1.0</data>
+  <data key="d8">Shipping rules depend on the order being in a 'paid' state.</data>
+  <data key="d9">constraint,process</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217861</data>
+  <data key="d13"></data>
+</edge>
+<edge source="订单状态" target="关闭流程">
+  <data key="d7">1.0</data>
+  <data key="d8">Closing procedure varies based on current order state.</data>
+  <data key="d9">dependency,validation</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217862</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户管理" target="行为数据分析">
+  <data key="d7">1.0</data>
+  <data key="d8">User management system incorporates behavior analytics.</data>
+  <data key="d9">insights,monitoring</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217862</data>
+  <data key="d13"></data>
+</edge>
+<edge source="用户管理" target="风险防控">
+  <data key="d7">1.0</data>
+  <data key="d8">User management enables risk prevention measures.</data>
+  <data key="d9">control,security</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217863</data>
+  <data key="d13"></data>
+</edge>
+<edge source="导出订单列表" target="财务对账">
+  <data key="d7">1.0</data>
+  <data key="d8">Order export provides data for financial reconciliation.</data>
+  <data key="d9">analysis,data provision</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217862</data>
+  <data key="d13"></data>
+</edge>
+<edge source="财务对账" target="ERP集成">
+  <data key="d7">1.0</data>
+  <data key="d8">Reconciliation data may feed into ERP systems.</data>
+  <data key="d9">automation,system integration</data>
+  <data key="d10">chunk-4dc566aa289ded302acfdf883e72d122</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217863</data>
+  <data key="d13"></data>
+</edge>
+<edge source="审核状态" target="驳回原因">
+  <data key="d7">1.0</data>
+  <data key="d8">审核状态may result in a驳回原因when content is rejected.</data>
+  <data key="d9">moderation flow,system behavior</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217864</data>
+  <data key="d13"></data>
+</edge>
+<edge source="审核状态" target="评论状态">
+  <data key="d7">1.0</data>
+  <data key="d8">评论状态is influenced by审核状态as part of moderation.</data>
+  <data key="d9">content visibility,moderation process</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217866</data>
+  <data key="d13"></data>
+</edge>
+<edge source="审核状态" target="审核模式可配置">
+  <data key="d7">1.0</data>
+  <data key="d8">审核模式可配置determines how审核状态is assigned to submitted content.</data>
+  <data key="d9">review flexibility,system customization</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217867</data>
+  <data key="d13"></data>
+</edge>
+<edge source="审核状态" target="内容审核服务">
+  <data key="d7">1.0</data>
+  <data key="d8">内容审核服务helps determine审核状态by scanning for policy violations.</data>
+  <data key="d9">automated filtering,moderation safety</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="举报类型" target="被举报内容">
+  <data key="d7">1.0</data>
+  <data key="d8">举报类型is assigned to被举报内容when users file reports.</data>
+  <data key="d9">content moderation,user reporting</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217864</data>
+  <data key="d13"></data>
+</edge>
+<edge source="举报类型" target="举报人">
+  <data key="d7">1.0</data>
+  <data key="d8">举报人selects a举报类型when reporting content.</data>
+  <data key="d9">reporting,user interaction</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217865</data>
+  <data key="d13"></data>
+</edge>
+<edge source="举报类型" target="举报入口依赖前台">
+  <data key="d7">1.0</data>
+  <data key="d8">举报入口依赖前台provides the interface for users to select举报类型when reporting.</data>
+  <data key="d9">reporting workflow,user interface</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217866</data>
+  <data key="d13"></data>
+</edge>
+<edge source="评论状态" target="设为有效举报">
+  <data key="d7">1.0</data>
+  <data key="d8">设为有效举报changes the评论状态to "举报处理中" if the report is valid.</data>
+  <data key="d9">content moderation,status update</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217865</data>
+  <data key="d13"></data>
+</edge>
+<edge source="评论状态" target="驳回举报">
+  <data key="d7">1.0</data>
+  <data key="d8">驳回举报preserves the original评论状态if the report lacks merit.</data>
+  <data key="d9">content retention,report handling</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217867</data>
+  <data key="d13"></data>
+</edge>
+<edge source="轮播图管理" target="推荐商品位配置">
+  <data key="d7">1.0</data>
+  <data key="d8">轮播图管理and推荐商品位配置are part of operational configuration.</data>
+  <data key="d9">content management,operational control</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217864</data>
+  <data key="d13"></data>
+</edge>
+<edge source="轮播图管理" target="首页公告栏配置">
+  <data key="d7">1.0</data>
+  <data key="d8">首页公告栏配置works in conjunction with轮播图管理to organize visual elements.</data>
+  <data key="d9">content arrangement,layout management</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217866</data>
+  <data key="d13"></data>
+</edge>
+<edge source="推荐商品位配置" target="内容配置排序">
+  <data key="d7">1.0</data>
+  <data key="d8">内容配置排序affects the arrangement of推荐商品位配置.</data>
+  <data key="d9">layout management,user experience</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217865</data>
+  <data key="d13"></data>
+</edge>
+<edge source="推荐商品位配置" target="推荐内容上下架控制">
+  <data key="d7">1.0</data>
+  <data key="d8">Recommendation content in product sections can be controlled via the same up/down system as other content components.</data>
+  <data key="d9">content control,flexibility</data>
+  <data key="d10">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217872</data>
+  <data key="d13"></data>
+</edge>
+<edge source="首页公告栏配置" target="推荐内容上下架控制">
+  <data key="d7">2.0</data>
+  <data key="d8">Announcements use the same status control mechanisms (scheduled display/hiding) as other content components.&lt;SEP&gt;首页公告栏配置is managed alongside推荐内容上下架控制.</data>
+  <data key="d9">content visibility,operational workflow,scheduling,visibility management</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548&lt;SEP&gt;chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217864</data>
+  <data key="d13"></data>
+</edge>
+<edge source="首页公告栏配置" target="轮播图">
+  <data key="d7">1.0</data>
+  <data key="d8">Both are content management components designed for the homepage, with different focus areas.</data>
+  <data key="d9">configuration,content management</data>
+  <data key="d10">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217871</data>
+  <data key="d13"></data>
+</edge>
+<edge source="操作权限管理" target="日志可追踪">
+  <data key="d7">1.0</data>
+  <data key="d8">操作权限管理enables日志可追踪for maintaining accountability in moderation actions.</data>
+  <data key="d9">access control,audit trails</data>
+  <data key="d10">chunk-10f2b5902ee33747a9e74f0309eef548</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217865</data>
+  <data key="d13"></data>
+</edge>
+<edge source="上下架规则" target="商品分类管理">
+  <data key="d7">1.0</data>
+  <data key="d8">Rules for product listing and delisting are part of broader category management strategies.</data>
+  <data key="d9">management,product availability</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217866</data>
+  <data key="d13"></data>
+</edge>
+<edge source="删除策略" target="商品分类管理">
+  <data key="d7">1.0</data>
+  <data key="d8">Deletion strategies ensure data continuity within category management.</data>
+  <data key="d9">data integrity,management</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217867</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品分类管理" target="分类树结构展示">
+  <data key="d7">1.0</data>
+  <data key="d8">Tree structure display is a method for organizing and managing product categories.</data>
+  <data key="d9">organization,visualization</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217869</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品分类管理" target="新增分类">
+  <data key="d7">1.0</data>
+  <data key="d8">Adding new categories expands the hierarchical structure of product classification.</data>
+  <data key="d9">expansion,organization</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217870</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品分类管理" target="编辑分类">
+  <data key="d7">1.0</data>
+  <data key="d8">Editing categories allows for the maintenance and updating of classification attributes.</data>
+  <data key="d9">maintenance,modification</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217875</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品分类管理" target="启用/禁用分类">
+  <data key="d7">1.0</data>
+  <data key="d8">Enabling or disabling categories controls their visibility in the frontend.</data>
+  <data key="d9">management,visibility control</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217876</data>
+  <data key="d13"></data>
+</edge>
+<edge source="商品分类管理" target="删除分类">
+  <data key="d7">1.0</data>
+  <data key="d8">Deleting categories is a maintenance operation to clean up unused classifications.</data>
+  <data key="d9">cleanup,maintenance</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217877</data>
+  <data key="d13"></data>
+</edge>
+<edge source="分类树结构展示" target="排序值">
+  <data key="d7">1.0</data>
+  <data key="d8">Sort values determine the visual order of categories in the tree structure.</data>
+  <data key="d9">display priority,organization</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217870</data>
+  <data key="d13"></data>
+</edge>
+<edge source="编辑分类" target="分类路径缓存">
+  <data key="d7">1.0</data>
+  <data key="d8">Editing a category requires updating its cached path for consistent frontend display.</data>
+  <data key="d9">data synchronization,efficiency</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217870</data>
+  <data key="d13"></data>
+</edge>
+<edge source="编辑分类" target="递归结构">
+  <data key="d7">1.0</data>
+  <data key="d8">Editing a category must prevent recursive structures to maintain valid hierarchies.</data>
+  <data key="d9">hierarchy integrity,validation</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217873</data>
+  <data key="d13"></data>
+</edge>
+<edge source="删除分类" target="逻辑禁用">
+  <data key="d7">1.0</data>
+  <data key="d8">Logically disabled products must be unbound before category deletion.</data>
+  <data key="d9">constraints,state management</data>
+  <data key="d10">chunk-22ac7e7c7168dadc2764ce3df83560b4</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217878</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Carousel Image Management" target="Recommended Content Toggle Control">
+  <data key="d7">1.0</data>
+  <data key="d8">Carousel images can be managed using the same toggle control system for displaying or hiding content.</data>
+  <data key="d9">content control,scheduling</data>
+  <data key="d10">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217872</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Recommended Products Section" target="Homepage Bulletin Board">
+  <data key="d7">1.0</data>
+  <data key="d8">Both are content management components designed to enhance the homepage experience.</data>
+  <data key="d9">content management,homepage layout</data>
+  <data key="d10">chunk-7cc09beaf6ee0474d610b9be64971caa</data>
+  <data key="d11">需求说明书.md</data>
+  <data key="d12">1792217873</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

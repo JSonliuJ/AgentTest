@@ -1,0 +1,51 @@
+{
+  "doc-e27ffd463e9e9474cf9b337900e7bf0d": {
+    "status": "processed",
+    "chunks_count": 14,
+    "chunks_list": [
+      "chunk-5c580048bd9e0d0c800b7ef06538acb4",
+      "chunk-4f8ffd2ae3f805dacd90df9af59d12fc",
+      "chunk-96d780916eb31d8b69fb52d7a96d509d",
+      "chunk-7fd66117ad0b74ac47c8f441d7bf29ec",
+      "chunk-f67c22333827a4001ee4bd007c36b2b4",
+      "chunk-7f59eb2a5e7cbc27f89afa62305bd55f",
+      "chunk-d724086a63fc6f7bdc9da4256a2424f0",
+      "chunk-22ac7e7c7168dadc2764ce3df83560b4",
+      "chunk-48ac710eb93cdc1624990ce539037710",
+      "chunk-4dc566aa289ded302acfdf883e72d122",
+      "chunk-fb3f89459653a1af6e737cd351c292a3",
+      "chunk-d13fd88113bb3db1365c36313d668142",
+      "chunk-10f2b5902ee33747a9e74f0309eef548",
+      "chunk-7cc09beaf6ee0474d610b9be64971caa"
+    ],
+    "content_summary": "需求说明书\n\n项目概述\n\n1.1 项目背景\n\n本系统为一套线上商城系统，支持用户注册、登录、浏览商品、购物车管理、订单生成与支付、评论等功能，旨在为用户提供完整的电商购物闭环体验。\n\n1.2 项目目标\n\n开发一套 B2C 商城平台，支持商品展示、购物流程、订单管理、用户信息管理等核心模块，并具备完善的接口设计，便于前后端分离开发。\n\n1.3 用户角色\n\n普通用户：浏览商品、下单、支付、查看订单、评论等管理后台用户（此版本暂未涉及）：可拓展为商品管理、订单管理、用户管理等后台操作\n\n一、用户模块\n...",
+    "content_length": 26655,
+    "created_at": "2026-10-17T06:12:02.410679+00:00",
+    "updated_at": "2026-10-17T06:17:58+00:00",
+    "file_path": "需求说明书.md",
+    "track_id": "insert_20261017_141202_5520852c",
+    "metadata": {
+      "processing_start_time": 1792217555,
+      "processing_end_time": 1792217878
+    },
+    "error_msg": "",
+    "multimodal_processed": true
+  },
+  "dup-54b4cadbc47dfa76e48cfdbe79f3731d": {
+    "status": "failed",
+    "content_summary": "[DUPLICATE] Original document: doc-e27ffd463e9e9474cf9b337900e7bf0d",
+    "content_length": 26655,
+    "chunks_count": 0,
+    "chunks_list": [],
+    "created_at": "2026-10-17T06:12:35.184364+00:00",
+    "updated_at": "2026-10-17T06:12:35.184364+00:00",
+    "file_path": "需求说明书.md",
+    "track_id": "insert_20261017_141235_534ac313",
+    "error_msg": "Content already exists. Original doc_id: doc-e27ffd463e9e9474cf9b337900e7bf0d, Status: failed",
+    "metadata": {
+      "is_duplicate": true,
+      "original_doc_id": "doc-e27ffd463e9e9474cf9b337900e7bf0d",
+      "original_track_id": "insert_20261017_141202_5520852c"
+    }
+  }
+}

@@ -1,0 +1,754 @@
+{
+  "doc-e27ffd463e9e9474cf9b337900e7bf0d": {
+    "relation_pairs": [
+      [
+        "举报类型",
+        "被举报内容"
+      ],
+      [
+        "站内信",
+        "重置用户密码"
+      ],
+      [
+        "删除操作按钮",
+        "购物车列表"
+      ],
+      [
+        "Online Shopping System",
+        "User Module"
+      ],
+      [
+        "F3.1加入购物车",
+        "商品数量上限为库存值"
+      ],
+      [
+        "Product",
+        "Review"
+      ],
+      [
+        "轮播图",
+        "首页公告栏配置"
+      ],
+      [
+        "评论状态",
+        "驳回举报"
+      ],
+      [
+        "CDN",
+        "图片上传"
+      ],
+      [
+        "直接删除",
+        "逻辑删除"
+      ],
+      [
+        "举报入口依赖前台",
+        "举报类型"
+      ],
+      [
+        "用户管理",
+        "行为数据分析"
+      ],
+      [
+        "投诉率高/多次退款",
+        "黑名单监控"
+      ],
+      [
+        "F3.1加入购物车",
+        "购物车模块"
+      ],
+      [
+        "Product",
+        "Shopping Cart Module"
+      ],
+      [
+        "Order ID",
+        "Order Module"
+      ],
+      [
+        "单价",
+        "商品列表"
+      ],
+      [
+        "举报人",
+        "举报类型"
+      ],
+      [
+        "已登录用户",
+        "购物车模块"
+      ],
+      [
+        "分类树结构展示",
+        "商品分类管理"
+      ],
+      [
+        "用户管理",
+        "风险防控"
+      ],
+      [
+        "编辑分类",
+        "递归结构"
+      ],
+      [
+        "上下架状态",
+        "商品列表"
+      ],
+      [
+        "Order Module",
+        "User ID"
+      ],
+      [
+        "Product",
+        "User"
+      ],
+      [
+        "删除商品",
+        "商品列表"
+      ],
+      [
+        "Homepage Bulletin Board",
+        "Recommended Products Section"
+      ],
+      [
+        "Review",
+        "Review Audit"
+      ],
+      [
+        "内容配置排序",
+        "推荐商品位配置"
+      ],
+      [
+        "User Registration",
+        "User Registration Status Rules"
+      ],
+      [
+        "标签管理",
+        "自动打标签"
+      ],
+      [
+        "Order Detail View",
+        "Shipper"
+      ],
+      [
+        "Comment",
+        "User"
+      ],
+      [
+        "未登录用户",
+        "购物车模块"
+      ],
+      [
+        "Alipay",
+        "Payment System"
+      ],
+      [
+        "F2.4",
+        "Product"
+      ],
+      [
+        "分类树结构展示",
+        "排序值"
+      ],
+      [
+        "审核/驳回评论",
+        "评价管理"
+      ],
+      [
+        "F3.2修改商品数量 / 状态",
+        "数量超过库存"
+      ],
+      [
+        "上下架规则",
+        "商品分类管理"
+      ],
+      [
+        "Comment",
+        "F2.3"
+      ],
+      [
+        "商品列表",
+        "所属分类"
+      ],
+      [
+        "Order Module",
+        "Order Status"
+      ],
+      [
+        "F3.4查询购物车列表",
+        "购物车模块"
+      ],
+      [
+        "Login Business Rules",
+        "User Login"
+      ],
+      [
+        "审核状态",
+        "驳回原因"
+      ],
+      [
+        "Order",
+        "User"
+      ],
+      [
+        "数量选择器",
+        "购物车列表"
+      ],
+      [
+        "操作权限管理",
+        "日志可追踪"
+      ],
+      [
+        "Shopping Cart Module",
+        "State Persistence"
+      ],
+      [
+        "推荐商品位配置",
+        "轮播图管理"
+      ],
+      [
+        "Backend Category Tree",
+        "Historical Order Data"
+      ],
+      [
+        "Delivery Address",
+        "Order Module"
+      ],
+      [
+        "Logistics Information",
+        "Order"
+      ],
+      [
+        "User Information Business Rules",
+        "User Information Modification"
+      ],
+      [
+        "Carousel Image Management",
+        "Recommended Content Toggle Control"
+      ],
+      [
+        "推荐内容上下架控制",
+        "推荐商品位配置"
+      ],
+      [
+        "商品列表",
+        "新增商品"
+      ],
+      [
+        "导出订单列表",
+        "财务对账"
+      ],
+      [
+        "Review",
+        "Star Rating"
+      ],
+      [
+        "商品列表",
+        "编辑商品"
+      ],
+      [
+        "Login Status Rules",
+        "User Login"
+      ],
+      [
+        "Ordinary User",
+        "Phone/Email Binding"
+      ],
+      [
+        "Admin",
+        "Super Admin"
+      ],
+      [
+        "双人复核",
+        "安全机制"
+      ],
+      [
+        "F3.3删除购物车商品",
+        "购物车模块"
+      ],
+      [
+        "F3.2修改商品数量 / 状态",
+        "购物车模块"
+      ],
+      [
+        "分类路径缓存",
+        "编辑分类"
+      ],
+      [
+        "Order Lifecycle",
+        "Order Module"
+      ],
+      [
+        "启用/禁用分类",
+        "商品分类管理"
+      ],
+      [
+        "用户标签",
+        "用户标签管理"
+      ],
+      [
+        "定时任务",
+        "标签管理扩展性"
+      ],
+      [
+        "Ordinary User",
+        "User Login"
+      ],
+      [
+        "删除策略",
+        "商品分类管理"
+      ],
+      [
+        "F3.1加入购物车",
+        "用户未登录"
+      ],
+      [
+        "Order",
+        "Payment Time"
+      ],
+      [
+        "Carousel",
+        "F2.1"
+      ],
+      [
+        "商品分类管理",
+        "编辑分类"
+      ],
+      [
+        "推荐内容上下架控制",
+        "首页公告栏配置"
+      ],
+      [
+        "客服主管",
+        "重置用户密码"
+      ],
+      [
+        "Order Module",
+        "Product Price"
+      ],
+      [
+        "Ordinary User",
+        "User Module"
+      ],
+      [
+        "操作日志",
+        "重置用户密码"
+      ],
+      [
+        "Review",
+        "User"
+      ],
+      [
+        "F3.2修改商品数量 / 状态",
+        "商品已下架"
+      ],
+      [
+        "ERP集成",
+        "财务对账"
+      ],
+      [
+        "Order",
+        "Shopping Cart"
+      ],
+      [
+        "商品分类管理",
+        "新增分类"
+      ],
+      [
+        "F3.1加入购物车",
+        "商品已下架"
+      ],
+      [
+        "F3.2修改商品数量 / 状态",
+        "数量为负数"
+      ],
+      [
+        "F3.1加入购物车",
+        "商品ID非法"
+      ],
+      [
+        "B2C Mall Platform",
+        "Background Management User"
+      ],
+      [
+        "Order List Pagination Query",
+        "Order Management Module"
+      ],
+      [
+        "用户列表查询",
+        "筛选条件"
+      ],
+      [
+        "商品ID",
+        "商品列表"
+      ],
+      [
+        "CDN",
+        "Review Image"
+      ],
+      [
+        "Product Module",
+        "Shopping Cart Module"
+      ],
+      [
+        "购物车列表",
+        "选中状态"
+      ],
+      [
+        "Ordinary User",
+        "Shipping Address Management"
+      ],
+      [
+        "F1.6",
+        "User"
+      ],
+      [
+        "Order List Pagination Query",
+        "User Phone Number"
+      ],
+      [
+        "F1.6",
+        "Verification Code"
+      ],
+      [
+        "Comment Statistics",
+        "Product"
+      ],
+      [
+        "Performance Optimization",
+        "Shopping Cart Module"
+      ],
+      [
+        "用户标签运营",
+        "运营人员"
+      ],
+      [
+        "F2.3",
+        "Product"
+      ],
+      [
+        "Order Confirmation Page",
+        "Order Module"
+      ],
+      [
+        "主图",
+        "商品列表"
+      ],
+      [
+        "F1.6",
+        "SMS/Email"
+      ],
+      [
+        "超级管理员",
+        "重置用户密码"
+      ],
+      [
+        "用户标签管理",
+        "运营人员"
+      ],
+      [
+        "单价",
+        "购物车列表"
+      ],
+      [
+        "Ordinary User",
+        "User Information Modification"
+      ],
+      [
+        "Order Module",
+        "Payment Success Page"
+      ],
+      [
+        "用户举报处理",
+        "评价管理"
+      ],
+      [
+        "商品标题",
+        "购物车列表"
+      ],
+      [
+        "Order List Pagination Query",
+        "Order Number"
+      ],
+      [
+        "Admin",
+        "Product Management"
+      ],
+      [
+        "Order",
+        "Order Status"
+      ],
+      [
+        "审核模式可配置",
+        "审核状态"
+      ],
+      [
+        "F2.4",
+        "User"
+      ],
+      [
+        "Comment Filtering",
+        "Product Detail Page"
+      ],
+      [
+        "Category",
+        "F2.1"
+      ],
+      [
+        "商品列表",
+        "商品管理员"
+      ],
+      [
+        "Backend Category Tree",
+        "Is_Deleted Flag"
+      ],
+      [
+        "封禁/解封用户",
+        "系统管理员"
+      ],
+      [
+        "商品列表",
+        "商品标题"
+      ],
+      [
+        "商品列表",
+        "库存"
+      ],
+      [
+        "Order List Pagination Query",
+        "Order Status"
+      ],
+      [
+        "同一用户收藏同一商品仅记录一次",
+        "商品收藏状态"
+      ],
+      [
+        "审批流程",
+        "导出权限限制"
+      ],
+      [
+        "Order Detail View",
+        "Shipping Time"
+      ],
+      [
+        "删除分类",
+        "逻辑禁用"
+      ],
+      [
+        "B2C Mall Platform",
+        "Online Shopping System"
+      ],
+      [
+        "发货规则",
+        "订单状态"
+      ],
+      [
+        "设为有效举报",
+        "评论状态"
+      ],
+      [
+        "标签管理",
+        "标签管理扩展性"
+      ],
+      [
+        "Product",
+        "Product Detail Page"
+      ],
+      [
+        "Category Hierarchy",
+        "Product Dependency"
+      ],
+      [
+        "F1.5",
+        "User"
+      ],
+      [
+        "Verification Code",
+        "Verification Code Rules"
+      ],
+      [
+        "Default Address",
+        "F1.5"
+      ],
+      [
+        "Order Module",
+        "Shopping Cart Module"
+      ],
+      [
+        "Product",
+        "Product Review Score"
+      ],
+      [
+        "删除商品",
+        "逻辑删除"
+      ],
+      [
+        "F3.1加入购物车",
+        "购物车上限为100条记录"
+      ],
+      [
+        "Order",
+        "Shipping Information"
+      ],
+      [
+        "删除商品",
+        "物理删除"
+      ],
+      [
+        "Login Restriction",
+        "Shopping Cart Module"
+      ],
+      [
+        "Order Module",
+        "Shipping Fee"
+      ],
+      [
+        "轮播图管理",
+        "首页公告栏配置"
+      ],
+      [
+        "用户状态",
+        "系统管理员"
+      ],
+      [
+        "删除策略",
+        "逻辑删除"
+      ],
+      [
+        "F3.4查询购物车列表",
+        "购物车商品"
+      ],
+      [
+        "安全机制",
+        "导出权限限制"
+      ],
+      [
+        "Order",
+        "Order Number"
+      ],
+      [
+        "分类管理模块",
+        "所属分类"
+      ],
+      [
+        "商品上下架",
+        "商品列表"
+      ],
+      [
+        "内容审核服务",
+        "审核状态"
+      ],
+      [
+        "封禁/解封用户",
+        "封禁状态"
+      ],
+      [
+        "安全机制",
+        "用户状态管理"
+      ],
+      [
+        "User Registration",
+        "User Registration Business Rules"
+      ],
+      [
+        "关闭流程",
+        "订单状态"
+      ],
+      [
+        "Comment Submission",
+        "Review"
+      ],
+      [
+        "F2.2",
+        "Product"
+      ],
+      [
+        "Shopping Cart",
+        "User"
+      ],
+      [
+        "Order Detail View",
+        "Product List"
+      ],
+      [
+        "F2.1",
+        "Product"
+      ],
+      [
+        "删除分类",
+        "商品分类管理"
+      ],
+      [
+        "Anonymous User",
+        "User"
+      ],
+      [
+        "Comment Filtering",
+        "Review"
+      ],
+      [
+        "商品管理",
+        "运营人员"
+      ],
+      [
+        "商品收藏状态",
+        "用户可最多收藏500个商品"
+      ],
+      [
+        "Review",
+        "Review Image"
+      ],
+      [
+        "Payment System",
+        "WeChat"
+      ],
+      [
+        "查看用户详情",
+        "用户列表查询"
+      ],
+      [
+        "查看评价列表",
+        "评价管理"
+      ],
+      [
+        "商品封面",
+        "购物车列表"
+      ],
+      [
+        "商品列表",
+        "操作"
+      ],
+      [
+        "商品详情",
+        "新增商品"
+      ],
+      [
+        "Admin",
+        "Product"
+      ],
+      [
+        "Phone/Email Binding",
+        "Verification Code"
+      ],
+      [
+        "Order Module",
+        "Payment System"
+      ],
+      [
+        "短信",
+        "重置用户密码"
+      ],
+      [
+        "Ordinary User",
+        "User Registration"
+      ],
+      [
+        "审核状态",
+        "评论状态"
+      ]
+    ],
+    "count": 186,
+    "create_time": 1792217878,
+    "update_time": 1792217878,
+    "_id": "doc-e27ffd463e9e9474cf9b337900e7bf0d"
+  }
+}
