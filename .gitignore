@@ -1,0 +1,37 @@
+# ---- 密钥与本地配置（最重要）----
+# 任意层级
+**/.env
+**/.env.*
+**/.env.local
+**/secrets.*
+**/credentials.*
+.env
+.env.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ---- 测试产物 & 大文件 ----
+reports/*.html
+data/raw/
+*.log
+# ---- 敏感材料（可选）----
+**/.pdf
+**/.pdf.*
+.pdf
+.pdf.*
